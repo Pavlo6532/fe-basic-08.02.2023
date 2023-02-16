@@ -1,1 +1,3 @@
-# fe-basic-08.02.2023
+# Front-End course
+
+Hillel shcool
