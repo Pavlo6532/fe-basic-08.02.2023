@@ -1,0 +1,82 @@
+.container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
+/* * {
+  text-decoration: line-through;
+} */
+
+/* p + h2 {
+  color: yellow;
+} */
+
+/* p ~ h2 {
+  color: yellowgreen;
+} */
+
+/* section > * {
+  border: 1px solid;
+} */
+
+/* .first-section {
+  color: #000000;
+  font-size: 24px; */
+  /* width: 50%;
+  height: auto;
+  margin: 0 auto; */
+  /* padding-bottom: 50px;
+  padding-left: 25px;
+  padding-right: 25px; */
+
+  /* padding: 50px 25px 50px 25px; */
+
+  /* padding: 50px 25px;
+} */
+
+/* section,
+h1,
+p {
+  border-width: 1px;
+  border-style: solid;
+  border-color: red;
+
+  /* border: 1px solid red; */
+} */
+
+/* section > p {
+  color: green;
+} */
+
+/* h1.maine-title {
+  color: aqua !important;
+}
+
+#title {
+  color: aquamarine;
+}
+
+.maine-title {
+  color: blueviolet;
+}
+
+[data-target] {
+  text-decoration: line-through;
+}
+
+h1 {
+  color: black !important;
+}
+
+section p.description {
+  color: blue;
+}
+
+p {
+  color: brown;
+} */
