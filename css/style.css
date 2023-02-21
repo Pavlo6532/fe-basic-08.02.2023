@@ -4,9 +4,47 @@
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
+  border: 1px solid;
 }
 
+.mine-title {
+  color: blueviolet;
+  text-align: center;
+}
 
+.first-section {
+  font-size: 20px;
+  width: 70%;
+  height: auto;
+  margin: 10px auto;
+  padding-bottom: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: 1px solid red;
+}
+
+.second-section {
+  font-size: 25px;
+  width: 80%;
+  height: auto;
+  margin: 10px auto;
+  padding-bottom: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: 1px solid yellow;
+}
+
+#title1 {
+  color: aqua;
+}
+
+h3 + p {
+  color: gray;
+}
+
+h3 {
+  color: darkorange !important;
+}
 
 /* * {
   text-decoration: line-through;
@@ -27,16 +65,16 @@
 /* .first-section {
   color: #000000;
   font-size: 24px; */
-  /* width: 50%;
+/* width: 50%;
   height: auto;
   margin: 0 auto; */
-  /* padding-bottom: 50px;
+/* padding-bottom: 50px;
   padding-left: 25px;
   padding-right: 25px; */
 
-  /* padding: 50px 25px 50px 25px; */
+/* padding: 50px 25px 50px 25px; */
 
-  /* padding: 50px 25px;
+/* padding: 50px 25px;
 } */
 
 /* section,
@@ -46,8 +84,8 @@ p {
   border-style: solid;
   border-color: red;
 
-  /* border: 1px solid red; */
-} */
+  /* border: 1px solid red;
+ } */
 
 /* section > p {
   color: green;
