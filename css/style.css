@@ -22,3 +22,18 @@ body {
   max-width: 1110px;
   margin: 0 auto;
 }
+
+.card {
+  display: inline-block;
+  border: 1px solid;
+  margin-left: 0;
+  margin-right: 41px;
+  margin-bottom: 30px;
+  max-width: calc(33.3% - 30px);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.card:nth-child(3n) {
+  margin-right: 0;
+}
