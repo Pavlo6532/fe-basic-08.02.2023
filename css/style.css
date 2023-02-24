@@ -37,3 +37,18 @@ body {
 .card:nth-child(3n) {
   margin-right: 0;
 }
+
+.title1 {
+  text-align: center;
+  color: red;
+  border: 1px solid;
+  margin-bottom: 15px;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.nav-item + .nav-item {
+  margin-left: 30px;
+}
