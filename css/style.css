@@ -22,3 +22,40 @@ body {
   max-width: 1110px;
   margin: 0 auto;
 }
+
+.title1 {
+  border: 3px solid;
+  color: red;
+  margin: 15px 0;
+  text-align: center;
+  background-color: black;
+}
+
+.text {
+  text-align: justify;
+}
+
+.clearfix {
+  clear: both;
+  margin-bottom: 15px;
+}
+
+.wrapper {
+  background: #e6e6e6;
+}
+
+.card {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  background: #fc8f8f;
+  color: #e6e6e6;
+  font-size: 64px;
+}
+
+.card.small {
+  width: 100px;
+  height: 100px;
+  background: #fc8f8f;
+  font-size: 36px;
+}
