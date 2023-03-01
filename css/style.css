@@ -17,10 +17,41 @@
   text-align: center;
 }
 
-/* main {
-  background: url("../image/Range.png") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-} */
+.mw-35 {
+  max-width: 35%;
+}
+
+.mw-50 {
+  max-width: 50%;
+}
+
+.fl-right {
+  float: right;
+}
+
+.fl-left {
+  float: left;
+}
+
+.clearfix {
+  clear: both;
+  margin-bottom: 0;
+}
+
+.card {
+  width: 45%;
+  height: auto;
+  margin: 10px 10px;
+}
+
+.card-small {
+  width: 30%;
+  height: auto;
+  margin-right: 10px;
+}
+
+textarea {
+  resize: none;
+  width: 90%;
+  height: 80px;
+}

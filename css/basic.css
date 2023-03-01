@@ -7,7 +7,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: cadetblue;
 }
 
 a,
@@ -25,11 +24,7 @@ html {
   font-size: 16px;
   font-weight: 400;
   color: #252525;
-  background: url("../image/Range.png") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: burlywood;
 }
 
 body {
