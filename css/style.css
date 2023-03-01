@@ -4,3 +4,23 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+
+.nav-item {
+  display: inline-block;
+}
+
+.nav-item + .nav-item {
+  margin-left: 60px;
+}
+
+.title {
+  text-align: center;
+}
+
+/* main {
+  background: url("../image/Range.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */

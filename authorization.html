@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration</title>
+    <title>Authorization</title>
     <link rel="stylesheet" href="./fonts/fonts.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -27,29 +27,24 @@
     <main class="main">
         <section class="first-section py-rem">
             <div class="container">
-                <h1 class="title"> Please register to search for a car</h1>
+                <h1 class="title">Authorization</h1>
                 <form action="https://fom.in.ua/echo">
                     <fieldset>
-                        <legend>Registration</legend>
-                        <p>
-                            <label class="label">
-                                <span>Your email</span>
-                                <input type="email" name="email" required placeholder="enter your email">
-                            </label><br>
-
-                            <label class="label">
-                                <span>Your password</span>
-                                <input type="password" name="password" required placeholder="enter your password">
-                            </label><br>
-
-                            <label>
-                                <span>Confirm your password</span>
-                                <input type="password" name="confirmPassword" required
-                                    placeholder="confirm your password">
-                            </label><br>
-                        </p>
+                        <legend>Authorization</legend>
+                        <label>
+                            <span>Your email</span>
+                            <input type="email" name="email" required placeholder="enter your email"><br>
+                        </label>
+                        <label>
+                            <span>Your password</span>
+                            <input type="password" name="password" required placeholder="enter your pasword">
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="rememberPasword" value="1">
+                            Remember pasword
+                        </label><br>
+                        <button>Send</button>
                     </fieldset>
-                    <button>Send</button>
                 </form>
             </div>
         </section>

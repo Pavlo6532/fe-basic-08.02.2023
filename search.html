@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="header py-rem">
+        <div class="container">
+            <nav class="nav-item">
+                <a href="./index.html">Registration</a>
+            </nav>
+            <nav class="nav-item">
+                <a href="./authorization.html">Authorization</a>
+            </nav>
+            <nav class="nav-item">
+                <a href="./search.html">Search</a>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="first-section py-rem">
+            <div class="container">
+                <h1>Search your car</h1>
+                <form action="https://fom.in.ua/echo">
+                    <fieldset>
+                        <legend>Body type</legend>
+                        <span>State</span><br>
+                        <label>
+                            All cars
+                            <input type="radio" name="state" value="allCars" required>
+                        </label>
+                        <label>
+                            Used cars
+                            <input type="radio" name="state" value="usedCars" required>
+                        </label>
+                        <label>
+                            New cars
+                            <input type="radio" name="state" value="newCars" required>
+                        </label><br>
+                        <span>Body type</span>
+                        <select name="bodyType">
+                            <option value="allCars" selected>All car</option>
+                            <option value="sedan">Sedan</option>
+                            <option value="crossover">Crossover</option>
+                            <option value="minivan">Minivan</option>
+                            <option value="van">Van</option>
+                        </select><br>
+                        <span>Brand car</span>
+                        <select name="brand">
+                            <option value="allBrands" selected>All brands</option>
+                            <option value="audi">Audi</option>
+                            <option value="bmw">BMW</option>
+                            <option value="chevrolet">Chevrolet</option>
+                            <option value="ford">Ford</option>
+                        </select><br>
+
+                        <button>Search</button>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer py-rem">
+        <div class="container">
+            <p>&copy; All rights are reserved</p>
+        </div>
+    </footer>
+</body>
+
+</html>
