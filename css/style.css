@@ -24,6 +24,10 @@
   margin-bottom: 40px;
 }
 
+.clearfix {
+  clear: both;
+}
+
 /* ---------------------------------------------------------------------------------------------------------- */
 
 .header {
@@ -71,11 +75,69 @@
   padding-bottom: 80px;
 }
 
+.text-content,
+.img-content {
+  width: 50%;
+}
+
+.text-content {
+  background: #e5e5e5;
+  border-radius: 8px 0px 0px 8px;
+  padding: 24px;
+  float: left;
+  min-height: 348px;
+}
+
+.text-content .card-title {
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+.text-content .description {
+  font-size: 24px;
+}
+
+.img-content {
+  border-radius: 0px 8px 8px 0px;
+  float: right;
+}
+
 /* ---------------------------------------------------------------------------------------------------------- */
 
 .features-section {
   padding-top: 80px;
   padding-bottom: 80px;
+}
+
+.card {
+  display: inline-block;
+  max-width: 322px;
+  padding: 24px;
+  border: 2px solid #e5e5e5;
+  border-radius: 8px;
+}
+
+.card + .card {
+  margin-left: 67px;
+}
+
+.card img {
+  display: block;
+  margin-bottom: 24px;
+}
+
+.card .card-title {
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+.card .description {
+  margin-bottom: 24px;
+}
+
+.card .link {
+  text-decoration-line: underline;
+  color: var(--color-red);
 }
 
 /* ---------------------------------------------------------------------------------------------------------- */
