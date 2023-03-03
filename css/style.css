@@ -1,10 +1,103 @@
 @import url("./basic.css");
 
-.py-rem {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.bg-beige {
+  background: var(--color-beige);
 }
 
-text-green {
+.bg-red {
+  background-color: var(--color-red);
+  color: #fff;
+}
+
+.bg-lightblue {
+  background-color: var(--color-lightblue);
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-title {
+  font-size: 48px;
+  color: var(--color-red);
+  margin-bottom: 40px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.logo {
+  font-family: "Courgette", cursive;
+  font-size: 32px;
+  float: left;
+  margin-right: 80px;
+}
+
+.text-green {
   color: #62bfad;
+}
+
+.navigation {
+  padding-top: 11px;
+}
+
+.nav-link + .nav-link {
+  margin-left: 20px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+.first-section {
+  padding-top: 200px;
+  padding-bottom: 170px;
+  font-family: "Limelight", cursive;
+  text-align: center;
+}
+
+.main-title {
+  font-size: 48px;
+  max-width: 740px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+.about-section {
+  padding-top: 95px;
+  padding-bottom: 80px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+.features-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+.footer {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+}
+
+.social-link:hover svg path {
+  transition: all linear 0.2s;
+}
+
+.social-link:hover svg path {
+  fill: var(--color-red);
+}
+
+.social-link + .social-link {
+  margin-left: 1rem;
+}
+
+.copy {
+  margin-bottom: 24px;
 }

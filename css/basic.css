@@ -1,5 +1,6 @@
 :root {
   --container-width: 1110px;
+  --basic-space: 1rem;
   --color-beige: #f9f7e8;
   --color-red: #d52047;
   --color-lightblue: #eff8f6;
@@ -22,7 +23,7 @@ img {
 }
 
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 16px;
   line-height: 1.2;
   font-weight: 400;
