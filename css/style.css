@@ -82,6 +82,7 @@ header {
 .card-image {
   width: 45px;
   height: 50px;
+  display: inline-block;
 }
 
 .card {
@@ -90,6 +91,7 @@ header {
   display: inline-block;
   margin-top: 100px;
   margin-bottom: 100px;
+  color: #ffffff;
 }
 
 .tx-aline-center {
@@ -99,9 +101,7 @@ header {
 .clearfix {
   clear: both;
 }
-/* .card-text {
 
-} */
 /* ------------------------------------------------------------------------------------------------------- */
 
 .video {
