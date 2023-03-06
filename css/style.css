@@ -4,3 +4,47 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+
+.link + .link {
+  margin-left: 42px;
+}
+
+.header,
+.first-section {
+  background-color: #eeeff1;
+}
+
+.first-screen-button {
+  background-color: #34547a;
+  width: 225px;
+  height: 65px;
+  padding-top: 65px;
+  padding-bottom: 141px;
+}
+
+.main-title {
+  font-size: 48px;
+  padding-top: 151px;
+  padding-bottom: 60px;
+}
+
+.first-text {
+  color: #727272;
+}
+
+.about-title,
+.about-text {
+  text-align: center;
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+
+.numbers {
+  background-color: #34547a;
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+
+.footer {
+  background-color: #34547a;
+}
