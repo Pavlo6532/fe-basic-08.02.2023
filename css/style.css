@@ -14,6 +14,10 @@
   background-color: #34547a;
 }
 
+.col-white {
+  color: #ffffff;
+}
+
 .fl-left {
   float: left;
 }
@@ -72,6 +76,7 @@ header {
   padding-top: 0;
   padding-bottom: 65px;
   max-width: 540px;
+  font-size: 16px;
   line-height: 26px;
 }
 
@@ -80,6 +85,7 @@ header {
   padding-bottom: 50px;
   min-width: 403px;
   text-align: center;
+  font-size: 32px;
   line-height: 38px;
   color: #000000;
 }
@@ -93,6 +99,9 @@ header {
   padding-bottom: 100px;
   max-width: 540px;
   text-align: center;
+  color: #727272;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 /* ------------------------------------------------------------------------------------------------------- */
@@ -138,6 +147,8 @@ header {
 .text-video {
   padding-top: 0;
   padding-bottom: 57px;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 .iframe {
@@ -147,10 +158,14 @@ header {
 /* ------------------------------------------------------------------------------------------------------- */
 
 .footer-title {
+  font-size: 21px;
+  line-height: 25px;
   margin-top: 50px;
 }
 
 .copy {
   margin-top: 20px;
   margin-bottom: 50px;
+  font-size: 13px;
+  line-height: 21px;
 }
