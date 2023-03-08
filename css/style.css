@@ -61,6 +61,7 @@ header {
   margin-top: 0;
   margin-bottom: 140px;
   line-height: 26px;
+  color: #ffffff;
 }
 
 .main-title {
@@ -106,6 +107,10 @@ header {
 
 /* ------------------------------------------------------------------------------------------------------- */
 
+.numbers {
+  padding: 100px 0;
+}
+
 .card-image {
   width: 45px;
   height: 50px;
@@ -115,9 +120,8 @@ header {
 .card {
   width: 141px;
   height: 50px;
+  margin: 5px 0;
   display: inline-block;
-  margin-top: 100px;
-  margin-bottom: 100px;
   color: #ffffff;
 }
 
