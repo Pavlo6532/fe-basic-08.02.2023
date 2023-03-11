@@ -27,7 +27,6 @@
   padding: 0;
   margin: 0;
   width: 150px;
-  display: none;
   position: absolute;
   left: 0;
   top: 42px;
@@ -49,10 +48,6 @@
   text-decoration: none;
 }
 
-.menu li:hover ul {
-  display: block;
-}
-
 .menu li:hover {
   background: #4635c8;
 }
@@ -62,10 +57,19 @@
   top: 0;
 }
 
-.menu li ul li ul li {
+.child {
   display: none;
 }
 
-.menu li ul li:hover ul li {
+.parent:hover > .child {
   display: block;
+}
+
+a:has(+ ul)::after {
+  content: "+";
+  color: red;
+  font-size: 2rem;
+  position: absolute;
+  top: 0;
+  right: 15px;
 }

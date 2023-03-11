@@ -16,14 +16,14 @@
         <div class="container">
             <ul class="menu">
                 <li><a href="./index.html">Home</a></li>
-                <li>
-                    <a href="#">Product+</a>
-                    <ul>
+                <li class="parent">
+                    <a href="#">Product</a>
+                    <ul class="child">
                         <li><a href="#">Product1</a></li>
                         <li><a href="#">Product2</a></li>
-                        <li>
-                            <a href="#">Product3+</a>
-                            <ul>
+                        <li class="parent">
+                            <a href="#">Product3</a>
+                            <ul class="child">
                                 <li>
                                     <a href="#">Product1</a>
                                 </li>
@@ -32,33 +32,39 @@
                         </li>
                     </ul>
                 </li>
-                <li>
-                    <a href="#">Product2+</a>
-                    <ul>
+                <li class="parent">
+                    <a href="#">Product2</a>
+                    <ul class="child">
                         <li>
                             <a href="#">Product1</a>
                         </li>
-                        <li>
-                            <a href="#">Product2+</a>
-                            <ul>
+                        <li class="parent">
+                            <a href="#">Product2</a>
+                            <ul class="child">
                                 <li><a href="#">Product2</a></li>
-                                <li>
+                                <li class="parent">
                                     <a href="#">Product3</a>
+                                    <ul class="child">
+                                        <li><a href="#">Product2</a></li>
+                                        <li>
+                                            <a href="#">Product3</a>
+                                        </li>
+                                    </ul>
                                 </li>
                             </ul>
                         </li>
-                        <li>
-                            <a href="#">Product3+</a>
-                            <ul>
+                        <li class="parent">
+                            <a href="#">Product3</a>
+                            <ul class="child">
                                 <li><a href="#">Product2</a></li>
                                 <li><a href="#">Product3</a></li>
                             </ul>
                         </li>
                     </ul>
                 </li>
-                <li>
-                    <a href="#">Product3+</a>
-                    <ul>
+                <li class="parent">
+                    <a href="#">Product3</a>
+                    <ul class="child">
                         <li><a href="#">Product1</a></li>
                         <li><a href="#">Product2</a></li>
                         <li><a href="#">Product3</a></li>
