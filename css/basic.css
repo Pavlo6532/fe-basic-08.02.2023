@@ -1,5 +1,5 @@
 :root {
-  --container-width: 1110px;
+  --container-width: 1060px;
   --basic-space: 1rem;
 }
 
@@ -20,10 +20,11 @@ img {
 }
 
 html {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
   font-weight: 400;
-  color: #252525;
+  color: #161513;
+  background-color: #f5f5f5;
 }
 
 body {
@@ -34,6 +35,14 @@ body {
 
 .container {
   max-width: calc(var(--container-width) + var(--basic-space) * 2);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--basic-space);
+  padding-right: var(--basic-space);
+}
+
+.container-head {
+  max-width: calc((var(--container-width) + 220px) + var(--basic-space) * 2);
   margin-left: auto;
   margin-right: auto;
   padding-left: var(--basic-space);
