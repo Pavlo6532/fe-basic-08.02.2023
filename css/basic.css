@@ -1,5 +1,6 @@
 :root {
   --container-width: 1060px;
+  --container-big-width: 1280px;
   --basic-space: 1rem;
 }
 
@@ -42,12 +43,8 @@ body {
   padding-right: var(--basic-space);
 }
 
-.container-head {
-  max-width: calc((var(--container-width) + 220px) + var(--basic-space) * 2);
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: var(--basic-space);
-  padding-right: var(--basic-space);
+.container.big {
+  max-width: calc(var(--container-big-width) + var(--basic-space) * 2);
 }
 
 .hidden {
