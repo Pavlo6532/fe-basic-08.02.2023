@@ -93,6 +93,13 @@
 .height-100 {
   height: 100%;
 }
+.section-title {
+  font-size: 45px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: 1.44px;
+  color: #161513;
+}
 /* -------------header------------------------------------------------------------------ */
 .header {
   padding-top: 27px;
@@ -116,6 +123,9 @@
   text-align: center;
   border: 1px solid #161513;
   border-radius: 0px;
+  cursor: pointer;
+}
+.header .button {
   padding: 9px 26px;
 }
 .header .button:hover {
@@ -123,6 +133,9 @@
   transition: all 0.2s linear;
 }
 /* ------------------first sectition----------------------------------------------------- */
+.first-section {
+  padding-top: 40px;
+}
 .title {
   font-size: 56px;
   line-height: 64px;
@@ -138,24 +151,13 @@
   margin-bottom: 40px;
 }
 .bt-1 {
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
   color: #ffffff;
   background: #161513;
-  border: 1px solid #161513;
   padding: 13px 33px;
-  cursor: pointer;
 }
 .bt-2 {
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
   color: #161513;
-  border: 1px solid #161513;
   padding: 13px 33px;
-  margin-left: 0;
-  cursor: pointer;
 }
 .picture {
   aspect-ratio: 1/1;
@@ -165,8 +167,8 @@
 .line-wrap {
   width: 100%;
   overflow: hidden;
-  padding-top: 63px;
-  padding-bottom: 67px;
+  padding-top: 160px;
+  padding-bottom: 185px;
 }
 .frame {
   display: flex;
@@ -228,11 +230,7 @@
   padding-bottom: 60px;
   text-align: center;
 }
-.title-award {
-  font-size: 45px;
-  line-height: 56px;
-  text-align: center;
-  letter-spacing: 1.44px;
+.t-award {
   margin-top: 20px;
   margin-bottom: 10px;
 }
@@ -272,7 +270,7 @@
 .img-card {
   aspect-ratio: 19/13;
 }
-.title-portfolio {
+.t-portfolio {
   margin: 20px 20px;
 }
 .card-portfolio {
@@ -319,7 +317,7 @@
 }
 /* ----------------------section-services---------------------------------------------------------------- */
 .card-services {
-  width: 48.11%;
+  width: calc(50% - 20px);
   padding: 35px 50px 30px 35px;
   border: 2px solid #161513;
 }
@@ -394,10 +392,14 @@
   padding-top: 60px;
   padding-bottom: 60px;
   background: #e6e3de;
+  font-size: 23px;
+  line-height: 32px;
+  letter-spacing: 0.48px;
 }
 .email {
   width: 354px;
   height: 56px;
+  padding-left: 20px;
   border: 2px solid #161513;
   text-align: left;
   font-size: 23px;
@@ -406,10 +408,14 @@
   color: #161513;
   border-radius: 0px;
 }
+input::placeholder {
+  color: #161513;
+}
 .btn-subscribe {
   width: 140px;
   height: 56px;
   background: #131416;
+  border: none;
   border-radius: 0px;
   font-size: 23px;
   line-height: 32px;
