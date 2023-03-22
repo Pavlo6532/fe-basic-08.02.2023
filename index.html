@@ -5,34 +5,223 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic template</title>
+    <title>Affiliate</title>
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="./fonts/fonts.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <header class="header py-rem">
+    <header class="header">
         <div class="container">
-            <nav>
-                <a href="./index.html">Home</a>
+            <nav class="nav">
+                <a href="./index.html" class="logo flex items-center"><img src="./images/logo.png" alt="logo"></a>
+                <a href="#">Pages</a>
+                <a href="#">
+                    <img src="./images/nav-logo1.png" alt="nav-logo1"> Categories
+                </a>
+                <a href="#">
+                    <img src="./images/nav-logo2.png" alt="nav-logo2"> Blog
+                </a>
+                <a href="#">
+                    <img src="./images/nav-logo3.png" alt="nav-logo3"> Reviews
+                </a>
+                <a href="#">
+                    <img src="./images/nav-logo4.png" alt="nav-logo4"> Buying Guides
+                </a>
             </nav>
+            <a class="flex items-center" href="#">
+                <img src="./images/logo-signup.png" alt="logo-signup"> Sign up
+            </a>
         </div>
     </header>
     <main class="main">
-        <section class="first-section py-rem">
+        <section class="first-section">
             <div class="container">
-                <h1>First section</h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ab, iure ipsa aliquam porro totam molestias.
-                </p>
-                <img src="./images/nature.png" alt="nature" width="300">
+                <div class="card-fs flex justify-between items-center">
+                    <img class="picture-fs" src="./images/picture-fs.png" alt="picture-fs">
+                    <div class="description-fs">
+                        <p class="description-up">Introducing Affiliate Template for Webflow</p>
+                        <h2 class="title-card">Easy-to-use Template for building Affiliate Sites</h2>
+                        <p class="description-down">
+                            <b>Affiliate</b> is a Webflow template made for entrepreneurs who want a professional and
+                            polished
+                            site
+                            ready to start and grow their affiliate marketing business in any niche.
+                        </p>
+                        <button class="button btn-1">Buy this Template</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="latest-section">
+            <div class="container">
+                <h2 class="section-title">Latest from the Blog</h2>
+                <div class="wrapp">
+                    <div class="latest-card1">
+                        <img src="./images/latest-card1.png" alt="latest-card1">
+                        <h3 class="tl-card-latest">How to Prep Your Lawn in the Spring</h3>
+                        <p class="description-card1">This is the blog description text. This is the blog description
+                            text. This is the blog
+                            description
+                            text.</p>
+                    </div>
+                    <div class="wrapper">
+                        <div class="latest-card">
+                            <img src="./images/latest-card2.png" alt="latest-card2">
+                            <h3 class="description-latest">Secrets to Know About Hedge Trimming</h3>
+                        </div>
+                        <div class="latest-card">
+                            <img src="./images/latest-card3.png" alt="latest-card3">
+                            <h3 class="description-latest">What to Do With a Dying Tree</h3>
+                        </div>
+                        <div class="latest-card">
+                            <img src="./images/latest-card4.png" alt="latest-card4">
+                            <h3 class="description-latest">Which Flowers Should You Plant Garden</h3>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="line-btn"><img src="./images/imgplay.png" alt="imgplay">
+                    <p>View All Blog Articles</p>
+                </a>
+                <div class="view">
+                    <div class="wrapp-viwe">
+                        <img src="./images/img-viwe.png" alt="img-viwe">
+                        <h4>View our list of the best products in lawncare.</h4>
+                    </div>
+                    <button class="button btn-viwe">See the list</button>
+                </div>
+            </div>
+        </section>
+        <section class="section-product">
+            <div class="container">
+                <h2 class="section-title">
+                    Latest Product Reviews
+                </h2>
+                <div class="wrapp-product">
+                    <div class="card-product">
+                        <p class="p-absolute">Lawns</p>
+                        <img src="./images/card-product.png" alt="card-product">
+                        <h3 class="title-product">Lawnmower Xtreme</h3>
+                        <p class="description-product">This is the Review Snippet. This is the Review Snippet. This is
+                            the Review Snippet. This is
+                            the
+                            Review Snippet.</p>
+                    </div>
+                    <div class="card-product">
+                        <p class="p-absolute">Garden</p>
+                        <img src="./images/card-product2.png" alt="card-product2">
+                        <h3 class="title-product">Ultra Grow Fertilizer</h3>
+                        <p class="description-product">This is the Review Snippet. This is the Review Snippet. This is
+                            the Review Snippet. This is
+                            the
+                            Review Snippet.</p>
+                    </div>
+                    <div class="card-product">
+                        <p class="p-absolute">Hedges</p>
+                        <img src="./images/card-product3.png" alt="card-product3">
+                        <h3 class="title-product">Hedge Clippers</h3>
+                        <p class="description-product">This is the Review Snippet. This is the Review Snippet. This is
+                            the Review Snippet. This is
+                            the
+                            Review Snippet.</p>
+                    </div>
+                </div>
+                <a href="#" class="line-btn"><img src="./images/imgplay.png" alt="imgplay">
+                    <p>View all Product Reviews</p>
+                </a>
+            </div>
+        </section>
+        <section class="section-signup">
+            <div class="container">
+                <div class="card-signup card-fs flex justify-between items-center">
+                    <img class="picture-fs" src="./images/signup-card.png" alt="signup-card">
+                    <div class="wrapp-signup">
+                        <h3 class="tl-card-latest flex items-center gap-10"><img src="./images/signup.png" alt="signup">
+                            Newsletter Signup</h3>
+                        <p class="description-signup">
+                            Be the first to receive updates on articles, product reviews, courses, and more!
+                        </p>
+                        <form>
+                            <label>
+                                <input class="email" type="email" placeholder="Your email">
+                            </label>
+                            <div class="end-form flex items-center flex-row gap-10">
+                                <button class="button">Submit</button>
+                                <p class="privacy">Privacy Policy</p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
-    <footer class="footer py-rem">
+    <footer class="footer">
         <div class="container">
-            <p>&copy; All rights are reserved</p>
+            <div class="wrapper flex justify-between flex-row">
+                <div class="card-footer">
+                    <div class="down-logo">
+                        <img src="./images/logo.png" alt="logo">
+                    </div>
+                    <div class="nav-link">
+                        <a href="#"><img src="./images/facebook.png" alt="facebook"></a>
+                        <a href="#"><img src="./images/twitter.png" alt="twitter"></a>
+                        <a href=""><img src="./images/instagram.png" alt="instagram"></a>
+                    </div>
+                    <p class="description-logo">
+                        <b>Affiliate</b> is a Webflow template made for entrepreneurs who want a professional and
+                        polished
+                        site
+                        ready to start and grow their affiliate marketing business in any niche.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <h3 class="tl-card-latest">Latest Articles</h3>
+                    <div class="wrap">
+                        <img class="img-card-down" src="./images/footer1.png" alt="footer1">
+                        <p class="description-footer">How to Prep Your Lawn in the Spring</p>
+                    </div>
+                    <div class="wrap">
+                        <img class="img-card-down" src="./images/footer2.png" alt="footer3">
+                        <p class="description-footer">Secrets to Know About Hedge Trimming</p>
+                    </div>
+                    <div class="wrap">
+                        <img class="img-card-down" src="./images/footer3.png" alt="footer3">
+                        <p class="description-footer">What to Do With a Dying Tree</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <h3 class="tl-card-latest">Browse</h3>
+                    <form>
+                        <div class="wrap-search flex items-center">
+                            <label>
+                                <input class="search" type="search">
+                            </label>
+                            <button class="button btn-search">Search</button>
+                        </div>
+                    </form>
+                    <a href="#">About</a>
+                    <a href="#">Categories</a>
+                    <a href="#">Tools</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Affiliate Disclosure</a>
+                    <hr>
+                    <p class="copy">&copy; 2022 Your Brand Name</p>
+                </div>
+            </div>
+            <hr class="line-down">
+            <div class="footer-down flex justify-between items-center">
+                <div class="left flex gap-10">
+                    <p>Style Guide</p>
+                    <p>Licenses</p>
+                    <p>Changelog</p>
+                </div>
+                <div class="right flex">
+                    <p>Powered by Webflow</p>
+                    <p>. Designed by Kevin Barrett</p>
+                </div>
+            </div>
         </div>
     </footer>
 </body>

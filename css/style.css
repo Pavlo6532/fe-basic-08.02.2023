@@ -1,6 +1,342 @@
 @import url("./basic.css");
 
-.py-rem {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.flex {
+  display: flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.items-center {
+  align-items: center;
+}
+.grid {
+  display: grid;
+}
+.gap-10 {
+  gap: 10px;
+}
+.button {
+  text-align: center;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+}
+.button:hover {
+  color: orange;
+  transition: all 0.2s;
+}
+.section-title {
+  font-family: "Bitter", serif;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 40px;
+  margin-bottom: 35px;
+}
+/* -----------------------header-------------------------------------------------------------------------------------- */
+.header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 8px rgba(83, 109, 122, 0.29);
+  font-size: 14px;
+  line-height: 20px;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.header a:hover {
+  color: orange;
+  transition: all 0.2s linear;
+}
+/* ----------------------------first-section--------------------------------------------------------------- */
+.first-section {
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+.card-fs {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  gap: 50px;
+  background-color: #e3ebf1;
+  border-radius: 10px;
+}
+.description-up {
+  color: #10843f;
+  margin-bottom: 10px;
+}
+.title-card {
+  font-family: "Bitter", serif;
+  font-size: 47px;
+  line-height: 52px;
+  color: #1d2f38;
+  margin-bottom: 20px;
+}
+.description-down {
+  font-size: 18px;
+  line-height: 24px;
+  color: #333333;
+  margin-bottom: 25px;
+}
+.btn-1 {
+  font-size: 15px;
+  line-height: 22px;
+  background: #17a550;
+}
+/* --------------------------latest-section----------------------------------------------------------------- */
+.latest-section {
+  padding-top: 0;
+  padding-bottom: 100px;
+}
+.latest-section .wrapp {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.latest-section .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.latest-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.tl-card-latest {
+  font-family: "Bitter", serif;
+  font-size: 30px;
+  line-height: 35px;
+  color: #1d2f38;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.description-card1 {
+  font-size: 15px;
+  line-height: 20px;
+}
+.description-latest {
+  font-size: 18px;
+  line-height: 25px;
+}
+.line-btn {
+  max-width: fit-content;
+  display: flex;
+  gap: 5px;
+  margin-top: 75px;
+  margin-bottom: 100px;
+  font-size: 16px;
+  line-height: 20px;
+}
+.line-btn:hover {
+  color: orange;
+  transition: all 0.2s;
+}
+.view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  font-family: "Bitter", serif;
+  font-size: 28px;
+  line-height: 32px;
+  background-color: #e3ebf1;
+  border-radius: 10px;
+  padding: 30px 40px 30px 30px;
+  background-image: url(../images/bg-view.png);
+}
+.wrapp-viwe {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.btn-viwe {
+  font-size: 15px;
+  line-height: 22px;
+  background-color: #17a550;
+}
+/* -------------------------section-product----------------------------------------------------------------- */
+.section-product {
+  padding-bottom: 100px;
+}
+.wrapp-product {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.card-product {
+  position: relative;
+  padding-bottom: 40px;
+  background-color: #f7f9fa;
+  border-radius: 10px;
+}
+.title-product {
+  font-family: "Bitter", serif;
+  font-size: 30px;
+  line-height: 35px;
+  padding: 25px 40px 15px 25px;
+}
+.description-product {
+  font-size: 15px;
+  line-height: 20px;
+  padding-left: 25px;
+}
+.p-absolute {
+  font-size: 12px;
+  line-height: 20px;
+  color: #ffffff;
+  padding: 5px 10px;
+  background-color: rgba(29, 47, 56, 0.8);
+  border-radius: 3px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.section-product .line-btn {
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+/* -------------------section-signup-------------------------------------------------------------------------------- */
+.section-signup {
+  padding-bottom: 100px;
+}
+.card-signup {
+  background-color: #e3ebf1;
+  border-radius: 10px;
+  margin-top: 60px;
+  margin-bottom: 80px;
+  background-image: url(../images/bg-signup.png);
+}
+.section-signup .tl-card-latest {
+  margin-bottom: 30px;
+}
+.email {
+  box-sizing: border-box;
+  width: 500px;
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid #aabcc5;
+  border-radius: 5px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  padding-left: 15px;
+}
+input::placeholder {
+  font-size: 12px;
+  line-height: 20px;
+  color: #536d7a;
+}
+.end-form .button {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  color: #000000;
+  background-color: #ffc728;
+}
+.end-form .button:hover {
+  color: orange;
+  transition: all 0.2s;
+}
+.privacy {
+  font-size: 12px;
+  line-height: 20px;
+  color: #536d7a;
+}
+/* -----------------------------------footer---------------------------------------------------------------- */
+.footer {
+  background: #f7f9fa;
+  border-radius: 0px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+.card-footer {
+  display: flex;
+  flex-direction: column;
+  max-width: 33.33%;
+}
+.card-footer .tl-card-latest {
+  margin-top: 0;
+}
+.card-footer .wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.card-footer .wrap:nth-child(4n) {
+  margin-bottom: 0;
+}
+.description-logo {
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 20px;
+}
+.down-logo {
+  margin-bottom: 15px;
+}
+.img-card-down {
+  border-radius: 7px;
+}
+.description-footer {
+  font-size: 16px;
+  line-height: 18px;
+}
+.search {
+  background: #ffffff;
+  border-radius: 5px 0px 0px 5px;
+  width: 274px;
+  height: 48px;
+  border: 1px solid #aabcc5;
+}
+.btn-search {
+  background: #768f9c;
+  border-radius: 0px 5px 5px 0px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+}
+.wrap-search {
+  margin-bottom: 20px;
+}
+.card-footer a {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 20px;
+}
+.card-footer a:hover {
+  color: orange;
+  transition: all 0.2s;
+}
+.card-footer hr {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  background-color: #536d7a;
+}
+.copy {
+  font-size: 16px;
+  line-height: 20px;
+}
+.line-down {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  background-color: #536d7a;
+}
+.footer-down {
+  font-size: 11px;
+  line-height: 20px;
 }
