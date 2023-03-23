@@ -5,28 +5,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic template</title>
+    <title>Skinn</title>
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="./fonts/fonts.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <header class="header py-rem">
+    <header class="header">
         <div class="container">
-            <nav>
-                <a href="./index.html">Home</a>
-            </nav>
+            <div class="wrapp flex justify-between items-center">
+                <div class="logo">
+                    <a href="./index.html"><img src="./images/logo.png" alt="logo"></a>
+                </div>
+                <nav class="nav">
+                    <a href="#">Shop All</a>
+                    <a href="#">Our Story</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Pages</a>
+                </nav>
+                <div class="basket flex justify-between items-center gap-10">
+                    <a href="#" class="color-black">Cart</a>
+                    <p class="basket-content">0</p>
+                </div>
+            </div>
         </div>
     </header>
     <main class="main">
-        <section class="first-section py-rem">
+        <section class="first-section">
             <div class="container">
-                <h1>First section</h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ab, iure ipsa aliquam porro totam molestias.
-                </p>
-                <img src="./images/nature.png" alt="nature" width="300">
+                <div class="wrapp">
+                    <div class="fs-content">
+                        <h1 class="title">Discover The
+                            Beauty Within</h1>
+                        <button class="button">View collection</button>
+                        <p>You</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="natural-section">
+            <div class="container">
+                <div class="wrapp flex justify-center items-center flex-column">
+                    <h2 class="title-section">Natural and
+                        certified organic
+                    </h2>
+                    <h2>Skincare</h2>
+                    <p>
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                        deleniti
+                        atque corrupti quos dolores et quas molestias excepturi.
+                    </p>
+                    <button class="button">Shop all</button>
+                </div>
+
             </div>
         </section>
     </main>

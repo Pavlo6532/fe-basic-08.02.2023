@@ -1,6 +1,127 @@
 @import url("./basic.css");
 
-.py-rem {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.items-center {
+  align-items: center;
+}
+.gap-10 {
+  gap: 10px;
+}
+.color-black {
+  color: #000000;
+}
+.color-brown {
+  color: #68513f;
+}
+.button {
+  font-size: 14px;
+  line-height: 20px;
+  color: #68513f;
+  padding: 12px 20px;
+  background: #f1ebe7;
+  border: 1px solid #dacec6;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #68513f;
+  color: olive;
+  transition: all 0.2s linear;
+}
+/* ----------------------------------------header------------------------------------------------------ */
+.header {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.header .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 40px;
+}
+.nav a:hover {
+  color: olive;
+}
+.basket-content {
+  height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: #e7ded8;
+  font-size: 11px;
+  line-height: 24px;
+  text-align: center;
+  color: #68513f;
+}
+.basket a:hover {
+  color: olive;
+  transition: all 0.2s linear;
+}
+/* ------------------------------------first-section-------------------------------------------------------------------- */
+.first-section .wrapp {
+  aspect-ratio: 1/1;
+  background-image: url(../images/first-section.jpg);
+  background-position: right top;
+  background-size: 70%, contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.title {
+  font-family: "STSong";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 88px;
+  line-height: 126px;
+  color: #000000;
+}
+.first-section .title {
+  max-width: 510px;
+}
+.fs-content {
+  position: absolute;
+  top: 150px;
+  left: 55px;
+}
+.fs-content .button {
+  margin-top: 45px;
+}
+.fs-content p {
+  position: absolute;
+  top: 250px;
+  left: 370px;
+  font-family: "StyleScript";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 175px;
+  line-height: 182px;
+  text-align: right;
+  color: #68513f;
+  transform: rotate(5.54deg);
+  max-width: 257px;
+}
+/* -----------------------------------section-nature---------------------------------------------------- */
+.natural-section .title-section {
+  max-width: 525px;
+}
+.title-section {
+  font-family: "STSong";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 70px;
+  line-height: 98px;
+  text-align: center;
+  color: #000000;
 }
