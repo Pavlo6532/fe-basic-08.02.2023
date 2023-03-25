@@ -6,6 +6,9 @@
 .flex-column {
   flex-direction: column;
 }
+.flex-row {
+  flex-direction: row;
+}
 .justify-between {
   justify-content: space-between;
 }
@@ -21,6 +24,24 @@
 .gap-10 {
   gap: 10px;
 }
+.gap-15 {
+  gap: 15px;
+}
+.gap-55 {
+  gap: 55px;
+}
+.gap-90 {
+  gap: 90px;
+}
+.gap-230 {
+  gap: 230px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-40 {
+  margin-bottom: 40px;
+}
 .color-black {
   color: #000000;
 }
@@ -32,14 +53,37 @@
   line-height: 20px;
   color: #68513f;
   padding: 12px 20px;
-  background: #f1ebe7;
+  background-color: #f1ebe7;
   border: 1px solid #dacec6;
   cursor: pointer;
+  text-align: center;
 }
 .button:hover {
   background-color: #68513f;
   color: olive;
   transition: all 0.2s linear;
+}
+.title-section {
+  font-family: "STSong";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 70px;
+  line-height: 98px;
+  text-align: center;
+  color: #000000;
+}
+.title-script {
+  font-family: "StyleScript";
+  font-size: 137px;
+  line-height: 112px;
+  text-align: center;
+  color: #68513f;
+}
+.description {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
 }
 /* ----------------------------------------header------------------------------------------------------ */
 .header {
@@ -72,7 +116,7 @@
 }
 /* ------------------------------------first-section-------------------------------------------------------------------- */
 .first-section .wrapp {
-  aspect-ratio: 1/1;
+  padding: 345px 0;
   background-image: url(../images/first-section.jpg);
   background-position: right top;
   background-size: 70%, contain;
@@ -87,6 +131,12 @@
   line-height: 126px;
   color: #000000;
 }
+.you {
+  font-size: 175px;
+  line-height: 182px;
+  transform: rotate(5.54deg);
+  max-width: 257px;
+}
 .first-section .title {
   max-width: 510px;
 }
@@ -95,33 +145,240 @@
   top: 150px;
   left: 55px;
 }
-.fs-content .button {
-  margin-top: 45px;
-}
-.fs-content p {
-  position: absolute;
-  top: 250px;
-  left: 370px;
-  font-family: "StyleScript";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 175px;
-  line-height: 182px;
-  text-align: right;
-  color: #68513f;
-  transform: rotate(5.54deg);
-  max-width: 257px;
-}
+
 /* -----------------------------------section-nature---------------------------------------------------- */
+.natural-section {
+  padding-top: 240px;
+}
 .natural-section .title-section {
   max-width: 525px;
 }
-.title-section {
+.natural-section .title-script {
+  transform: rotate(-5.08deg);
+}
+.natural-section .container {
+  position: relative;
+}
+.natural-section .description {
+  max-width: 50%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.btn-1 {
+  border-radius: 73px;
+}
+.picture1 {
+  position: absolute;
+  top: -115px;
+  left: 65px;
+}
+.picture2 {
+  position: absolute;
+  top: 240px;
+  left: 125px;
+}
+.picture3 {
+  position: absolute;
+  top: -220px;
+  right: 205px;
+}
+.picture4 {
+  position: absolute;
+  top: 25px;
+  right: 60px;
+}
+.picture5 {
+  position: absolute;
+  top: 328px;
+  right: 125px;
+}
+/* -------------------------------------------image-section--------------------------------------------------------- */
+.image-section {
+  padding-top: 240px;
+  padding-bottom: 90px;
+}
+/* -------------------------------------------product-section---------------------------------------------------------- */
+.product-section .title-rotate {
+  transform: none;
+}
+.product-section .title-section {
+  font-size: 65px;
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+.product-section .card {
+  background-color: #e7ded8;
+  border-radius: 10px;
+  padding: 10px;
+  min-height: 483px;
+  flex-basis: calc(calc(100% / 4) - calc(45px / 4));
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.title-card {
+  font-size: 19px;
+  line-height: 26px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.product-section .button {
+  width: 100%;
+  border-radius: 5px;
+}
+/* -----------------------------------------feature-section------------------------------------------------------------------ */
+.feature-section {
+  padding-top: 90px;
+  padding-bottom: 200px;
+}
+.card-feature {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.card-feature .title-section {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.card-feature .description {
+  font-size: 17px;
+  line-height: 31px;
+  margin-bottom: 40px;
+}
+.card-feature .wrapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btn-feature {
+  max-width: 115px;
+}
+/* -------------------------------section-partners--------------------------------------------------------- */
+.section-partners {
+  padding-bottom: 210px;
+}
+.section-partners .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-partners .description {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 39px;
+  max-width: 70%;
+  margin-bottom: 55px;
+}
+.wrap-partners {
+  display: flex;
+  gap: 70px;
+}
+/* ----------------------------------------section-wash----------------------------------------------- */
+.title-wash {
+  padding: 60px 40px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+.card-wash {
+  position: relative;
+  max-height: 415px;
+}
+.title-wash {
+  position: absolute;
+  top: 171px;
+  right: 171px;
+}
+/* ------------------------------------section-blog------------------------------------------------------------- */
+.section-blog {
+  padding-top: 90px;
+  padding-bottom: 125px;
+}
+.card-blog {
+  display: flex;
+  gap: 30px;
+}
+.card-blog .wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.btn-blog {
+  background-color: #f1ebe7;
+  border: 1px solid #dacec6;
+  border-radius: 166px;
+  max-width: 115px;
+}
+.section-blog .title-section {
+  font-size: 66px;
+  margin-bottom: 50px;
+}
+.card-blog .title-card {
   font-family: "STSong";
   font-style: normal;
   font-weight: 300;
-  font-size: 70px;
-  line-height: 98px;
-  text-align: center;
+  font-size: 28px;
+  line-height: 36px;
   color: #000000;
+}
+/* -------------------------------------footer------------------------------------------------------- */
+.footer {
+  background: #e7ded8;
+  border-radius: 10px;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+.logo-down {
+  max-width: 188px;
+}
+.logo-down img {
+  padding-bottom: 20px;
+}
+.footer .description {
+  text-align: left;
+}
+.footer h3 {
+  margin-bottom: 30px;
+  font-family: "STSong";
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 39px;
+  color: #000000;
+}
+.wrapp .description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.social-link {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.pages a:hover {
+  color: olive;
+  transition: all 0.2s linear;
+}
+.social-link svg circle,
+.social-link svg path {
+  transition: all 0.2s linear;
+}
+.social-link a:hover svg path {
+  fill: #1877f2;
 }
