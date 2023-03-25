@@ -179,22 +179,26 @@
   align-items: center;
   gap: 40px;
 }
+.wrapp-product .wrapp {
+  padding: 25px 35px 40px 25px;
+}
 .card-product {
   position: relative;
-  padding-bottom: 40px;
   background-color: #f7f9fa;
   border-radius: 10px;
+}
+.card-product img {
+  display: block;
 }
 .title-product {
   font-family: "Bitter", serif;
   font-size: 30px;
   line-height: 35px;
-  padding: 25px 40px 15px 25px;
+  margin-bottom: 15px;
 }
 .description-product {
   font-size: 15px;
   line-height: 20px;
-  padding-left: 25px;
 }
 .p-absolute {
   font-size: 12px;
@@ -300,7 +304,7 @@ input::placeholder {
   background: #ffffff;
   border-radius: 5px 0px 0px 5px;
   width: 274px;
-  height: 48px;
+  height: 50px;
   border: 1px solid #aabcc5;
 }
 .btn-search {
