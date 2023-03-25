@@ -285,6 +285,9 @@
   gap: 70px;
 }
 /* ----------------------------------------section-wash----------------------------------------------- */
+.section-wash img {
+  display: block;
+}
 .title-wash {
   padding: 60px 40px;
   font-size: 13px;
