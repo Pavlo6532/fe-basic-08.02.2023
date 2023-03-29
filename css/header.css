@@ -1,11 +1,11 @@
 .header .container {
   padding-top: 50px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr 475px;
   grid-template-rows: repeat(2, 25px);
   grid-template-areas:
-    "a b"
-    "a c";
+    "a a b"
+    "a a c";
 }
 .box1 {
   grid-area: a;

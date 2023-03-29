@@ -2,6 +2,7 @@
   :root {
     --container-width: 1360px;
     --container-small-width: 1080px;
+    --basic-space: 60px;
   }
 }
 @media (max-width: 992px) {
@@ -10,7 +11,7 @@
     --container-small-width: 664px;
   }
 }
-@media (max-width: 942px) {
+@media (max-width: 950px) {
   :root {
     --container-width: 648px;
   }
@@ -48,6 +49,9 @@
   }
 }
 @media (max-width: 590px) {
+  :root {
+    --basic-space: 30px;
+  }
   .header .container {
     padding-top: 0;
     grid-template-rows: minmax(45px, 1fr);
