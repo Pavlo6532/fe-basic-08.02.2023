@@ -1,0 +1,45 @@
+.footer {
+  background-color: #f5f5fa;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .separator-grey {
+  background-color: #b3b3ba;
+}
+.footer-map {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24a3ff;
+}
+.tel-footer {
+  font-weight: 700;
+  color: #46466e;
+}
+.email {
+  font-weight: 700;
+  color: #24a3ff;
+}
+.copy {
+  line-height: 20px;
+  color: #b3b3ba;
+}
+.facebook-footer svg circle,
+.facebook-footer svg path {
+  transition: all 0.2s linear;
+}
+.facebook-footer:hover svg path {
+  fill: #f0145a;
+  border-radius: 8px;
+  color: #ffffff;
+}
+.email:hover {
+  color: #f0145a;
+  transition: all 0.2s linear;
+}

@@ -1,6 +1,78 @@
 @import url("./basic.css");
-
-.py-rem {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+@import url(./header.css);
+@import url(./footer.css);
+.flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-end {
+  justify-content: end;
+}
+.justify-center {
+  justify-content: center;
+}
+.flex-column {
+  flex-direction: column;
+}
+.items-center {
+  align-items: center;
+}
+.gap-10 {
+  gap: 10px;
+}
+.gap-15 {
+  gap: 15px;
+}
+.gap-20 {
+  gap: 20px;
+}
+/* -----------------------------------------FIRST-SECTION----------------------------------------------------------------- */
+.first-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.first-section .title {
+  margin-bottom: 60px;
+}
+.card {
+  max-width: 100%;
+}
+.card .wrapp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.img-card {
+  border-radius: 12px;
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+.title-card {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.btn-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  background-color: #f5f5fa;
+  border-radius: 50%;
+}
+.card:hover .title-card {
+  color: #f0145a;
+  transition: all 0.2s linear;
+}
+.card:hover .btn-more svg path {
+  stroke: #f0145a;
+  transition: all 0.2s linear;
+}
+.container .wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
 }
