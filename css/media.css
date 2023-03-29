@@ -58,6 +58,10 @@
   .nav-up {
     justify-content: space-between;
     background-color: #f5f5fa;
+    margin-left: calc(-1 * var(--basic-space));
+    margin-right: calc(-1 * var(--basic-space));
+    padding-left: var(--basic-space);
+    padding-right: var(--basic-space);
   }
   .map {
     display: none;
