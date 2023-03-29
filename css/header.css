@@ -119,29 +119,6 @@
   top: 20px;
   right: 20px;
 }
-/* .nav-mobile {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  padding: 64px 25px 25px 25px;
-  background-color: rgba(0, 0, 0, 0.35);
-  position: fixed;
-  inset: 0;
-  z-index: 1;
-  background-color: #ffffff;
-  border-radius: 12px 12px 0px 0px;
-  transition: 0.3s all linear;
-  transform: translateY(100vh);
-} */
-/* .nav-mobile a {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
-  text-align: center;
-  color: #24a3ff;
-  background: #f5f5fa;
-  border-radius: 12px;
-} */
 .nav-mobile a:active {
   background: #e6e6f0;
   border-radius: 12px;
