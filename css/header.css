@@ -27,7 +27,7 @@
 .tel {
   font-weight: 700;
 }
-.nav-down {
+.nav-mobile {
   grid-area: c;
   display: flex;
   justify-content: end;
@@ -102,14 +102,13 @@
 }
 /* ---------------------------------mobile----------------------------------------------------- */
 .hide_check,
-.burger,
-.nav-mobile {
+.burger {
   display: none;
 }
 .hide_check {
   position: absolute;
-  right: 1px;
-  top: 30px;
+  right: 20px;
+  top: 70px;
   width: 30px;
   height: 30px;
   z-index: 5;
@@ -117,10 +116,10 @@
 }
 .hide_check:checked {
   position: absolute;
-  top: 19px;
-  right: 1px;
+  top: 20px;
+  right: 20px;
 }
-.nav-mobile {
+/* .nav-mobile {
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -133,8 +132,8 @@
   border-radius: 12px 12px 0px 0px;
   transition: 0.3s all linear;
   transform: translateY(100vh);
-}
-.nav-mobile a {
+} */
+/* .nav-mobile a {
   font-weight: 700;
   font-size: 24px;
   line-height: 29px;
@@ -142,14 +141,16 @@
   color: #24a3ff;
   background: #f5f5fa;
   border-radius: 12px;
-}
+} */
 .nav-mobile a:active {
   background: #e6e6f0;
   border-radius: 12px;
   color: #f0145a;
 }
 .burger {
-  position: relative;
+  position: absolute;
+  top: 70px;
+  right: 20px;
   width: 30px;
   height: 30px;
   z-index: 3;
@@ -176,11 +177,7 @@
 }
 .hide_check:checked ~ .burger {
   transition: 0.3s all linear;
-  top: -50px;
-}
-.hide_check:checked {
-  top: -20px;
-  right: 0;
+  top: 20px;
 }
 .hide_check:checked + .burger span:first-child {
   top: -4px;
