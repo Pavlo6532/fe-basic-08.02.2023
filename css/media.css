@@ -120,9 +120,6 @@
   .hide_check:checked ~ .wrap-mobile .nav-mobile {
     transform: translateY(0);
   }
-  .wrap-mobile {
-    display: none;
-  }
   .nav-mobile {
     display: flex;
     flex-direction: column;
