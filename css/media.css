@@ -31,6 +31,9 @@
   .nav-up {
     justify-content: start;
   }
+  .wrap-mobile {
+    display: block;
+  }
   .nav-mobile {
     justify-content: start;
   }
@@ -111,20 +114,28 @@
     height: 100vh;
     display: block;
     background-color: #323264;
-    opacity: 0.7;
+    position: fixed;
+    inset: 0;
+  }
+  .hide_check:checked ~ .wrap-mobile .nav-mobile {
+    transform: translateY(0);
+  }
+  .wrap-mobile {
+    display: none;
   }
   .nav-mobile {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 15px;
+    margin: 8px;
     padding: 64px 12px 12px 12px;
     background-color: rgba(0, 0, 0, 0.35);
     position: fixed;
     inset: 0;
     z-index: 1;
     background-color: #ffffff;
-    border-radius: 12px 12px 0px 0px;
+    border-radius: 12px;
     transition: 0.3s all linear;
     transform: translateY(100vh);
   }

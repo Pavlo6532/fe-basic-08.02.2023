@@ -121,11 +121,10 @@
 .burger {
   display: none;
 }
-.wrappp {
-  display: none;
-}
 .wrap-mobile {
-  display: none;
+  display: flex;
+  justify-content: end;
+  align-items: end;
 }
 .hide_check {
   position: absolute;
