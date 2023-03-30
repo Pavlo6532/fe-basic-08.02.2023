@@ -17,8 +17,6 @@
   .header .container {
     padding-top: 50px;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 25px 1fr 25px;
     grid-template-areas:
       "b"
       "a"
