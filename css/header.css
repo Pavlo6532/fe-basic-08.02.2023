@@ -64,11 +64,14 @@
   opacity: 0;
 }
 .lang-check + span {
+  border-radius: 8px;
   padding: 5px 7px;
+}
+.nav-up span:hover {
+  background-color: #f5f5fa;
 }
 .lang-check:checked + span {
   background-color: #f0145a;
-  border-radius: 8px;
   color: #ffffff;
 }
 .facebook-header svg circle,
@@ -118,9 +121,15 @@
 .burger {
   display: none;
 }
+.wrappp {
+  display: none;
+}
+.wrap-mobile {
+  display: none;
+}
 .hide_check {
   position: absolute;
-  right: 28px;
+  right: 25px;
   top: 70px;
   width: 30px;
   height: 30px;
