@@ -80,9 +80,6 @@
     padding-top: 15px;
     padding-bottom: 10px;
   }
-  /* .nav-down {
-    display: none;
-  } */
   .container .wrapper {
     grid-template-columns: repeat(1, 1fr);
     gap: 30px;
@@ -111,7 +108,7 @@
     flex-direction: column;
     align-items: center;
     gap: 15px;
-    padding: 64px 25px 25px 25px;
+    padding: 64px 12px 12px 12px;
     background-color: rgba(0, 0, 0, 0.35);
     position: fixed;
     inset: 0;
@@ -121,13 +118,25 @@
     transition: 0.3s all linear;
     transform: translateY(100vh);
   }
-  .nav-mobile a {
-    font-weight: 700;
+  .nav-mobile .nav-link {
+    width: 100%;
     font-size: 24px;
     line-height: 29px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     text-align: center;
     color: #24a3ff;
     background: #f5f5fa;
     border-radius: 12px;
+  }
+  .nav-mobile .nav-link:active {
+    background-color: #e6e6f0;
+    color: #f0145a;
+  }
+  .nav-link:hover {
+    border-bottom: none;
+  }
+  .nav-mobile .nav-link::after {
+    display: none;
   }
 }
