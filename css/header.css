@@ -116,6 +116,14 @@
 .img-card {
   display: block;
 }
+.nav-mobile a.active {
+  color: #f0145a;
+}
+.nav-mobile a.active::after {
+  left: 0;
+  width: 100%;
+  background-color: #f0145a;
+}
 /* ---------------------------------mobile----------------------------------------------------- */
 .hide_check,
 .burger {

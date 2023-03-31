@@ -67,6 +67,10 @@
     padding-left: var(--basic-space);
     padding-right: var(--basic-space);
   }
+  .header .container {
+    padding-left: calc(var(--basic-space) / 2);
+    padding-right: calc(var(--basic-space) / 2);
+  }
   h1 {
     font-size: 30px;
     line-height: 37px;
