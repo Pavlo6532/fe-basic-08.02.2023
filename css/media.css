@@ -64,12 +64,12 @@
     background-color: #f5f5fa;
     margin-left: calc(-1 * var(--basic-space));
     margin-right: calc(-1 * var(--basic-space));
-    padding-left: var(--basic-space);
-    padding-right: var(--basic-space);
-  }
-  .header .container {
     padding-left: calc(var(--basic-space) / 2);
     padding-right: calc(var(--basic-space) / 2);
+  }
+  .header .container {
+    padding-left: var(--basic-space);
+    padding-right: var(--basic-space);
   }
   h1 {
     font-size: 30px;
@@ -107,6 +107,10 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
+    margin-left: calc(-1 * var(--basic-space));
+    margin-right: calc(-1 * var(--basic-space));
+    padding-left: calc(var(--basic-space) / 2);
+    padding-right: calc(var(--basic-space) / 2);
   }
   .hide_check,
   .burger {
