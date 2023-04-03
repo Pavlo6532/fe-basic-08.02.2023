@@ -9,6 +9,9 @@
     --container-width: 904px;
     --container-small-width: 664px;
   }
+  .container-contact {
+    max-width: calc(var(--container-width) + var(--basic-space) * 2);
+  }
 }
 @media (max-width: 950px) {
   :root {
@@ -47,10 +50,19 @@
   .copy {
     margin-top: 30px;
   }
+  .first-section .container-contact {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
 }
 @media (max-width: 590px) {
   :root {
     --basic-space: 30px;
+  }
+  .team-logo {
+    font-size: 20px;
+    line-height: 24px;
   }
   .header .container {
     padding-top: 0;

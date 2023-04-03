@@ -76,3 +76,134 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 60px;
 }
+.description_facebook {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24a3ff;
+  max-width: 105px;
+}
+.description_facebook:hover {
+  color: #f0145a;
+  transition: all 0.2s linear;
+}
+.title-message {
+  font-size: 30px;
+  line-height: 37px;
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 30px;
+}
+textarea {
+  resize: none;
+}
+.first-section .container-contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 21px;
+  line-height: 30px;
+}
+.facebook_contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 153px;
+}
+.contact_tel {
+  color: #46466e;
+}
+.contact_email {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  color: #24a3ff;
+}
+.contact hr {
+  border: none;
+  height: 4px;
+  background-color: #e6e6f0;
+}
+.block_message {
+  background-color: #f5f5fa;
+  border-radius: 12px;
+  padding: 30px;
+}
+.btn-form {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  width: 100%;
+  color: #ffffff;
+  background-color: #24a3ff;
+  box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  border: none;
+  transition: all 0.2s linear;
+}
+.btn-form:hover {
+  background-color: #0085ff;
+  cursor: pointer;
+}
+.btn-form:active {
+  background-color: #006ccf;
+}
+.form_message {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.wrap_form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.wrap_form h3 {
+  color: #b3b3ba;
+}
+.wrap_form input {
+  padding: 15px;
+  width: 100%;
+}
+input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #b3b3ba;
+}
+.wrap_form textarea {
+  padding: 15px;
+  min-height: 130px;
+}
+textarea::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #b3b3ba;
+}
+textarea:focus {
+  outline: 1px solid #24a3ff;
+}
+.input {
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  line-height: 26px;
+}
+input:focus {
+  outline: 1px solid #24a3ff;
+}
+input:invalid {
+  outline: 1px solid #ff0000;
+  color: #ff0000;
+}
