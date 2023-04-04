@@ -28,6 +28,9 @@
 .gap-20 {
   gap: 20px;
 }
+.fit-content {
+  max-width: fit-content;
+}
 /* -----------------------------------------FIRST-SECTION----------------------------------------------------------------- */
 .first-section {
   padding-top: 60px;
@@ -120,7 +123,10 @@ textarea {
   max-width: 153px;
 }
 .contact_tel {
+  max-width: fit-content;
   color: #46466e;
+  font-size: 21px;
+  line-height: 30px;
 }
 .contact_email {
   font-weight: 400;
