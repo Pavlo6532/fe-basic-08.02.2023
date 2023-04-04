@@ -12,6 +12,34 @@
   .container-contact {
     max-width: calc(var(--container-width) + var(--basic-space) * 2);
   }
+  .wrapp-publications {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 975px) {
+  .header .publications-container {
+    padding-top: 50px;
+    display: grid;
+    grid-template-areas:
+      "b"
+      "a"
+      "c";
+  }
+  .box1 {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .nav-up {
+    justify-content: start;
+  }
+  .wrap-mobile {
+    display: block;
+  }
+  .nav-mobile {
+    justify-content: start;
+  }
 }
 @media (max-width: 950px) {
   :root {
@@ -176,5 +204,8 @@
   }
   .nav-mobile .nav-link::after {
     display: none;
+  }
+  .wrapp-publications {
+    grid-template-columns: 1fr;
   }
 }

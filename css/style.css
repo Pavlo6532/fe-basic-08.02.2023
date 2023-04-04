@@ -31,6 +31,11 @@
 .fit-content {
   max-width: fit-content;
 }
+hr {
+  border: none;
+  height: 4px;
+  background-color: #e6e6f0;
+}
 /* -----------------------------------------FIRST-SECTION----------------------------------------------------------------- */
 .first-section {
   padding-top: 60px;
@@ -74,6 +79,7 @@
   stroke: #f0145a;
   transition: all 0.2s linear;
 }
+/* ---------------------contact-page-------------------------------------------------------------- */
 .container .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -134,17 +140,12 @@ textarea {
   line-height: 30px;
   color: #24a3ff;
 }
-.contact hr {
-  border: none;
-  height: 4px;
-  background-color: #e6e6f0;
-}
 .block_message {
   background-color: #f5f5fa;
   border-radius: 12px;
   padding: 30px;
 }
-.btn-form {
+.btn {
   padding-top: 18px;
   padding-bottom: 18px;
   width: 100%;
@@ -158,11 +159,11 @@ textarea {
   border: none;
   transition: all 0.2s linear;
 }
-.btn-form:hover {
+.btn:hover {
   background-color: #0085ff;
   cursor: pointer;
 }
-.btn-form:active {
+.btn:active {
   background-color: #006ccf;
 }
 .form_message {
@@ -213,4 +214,98 @@ input:focus {
 input:invalid {
   outline: 1px solid #ff0000;
   color: #ff0000;
+}
+/* -----------------------------publications-page--------------------------------------------- */
+.publications-section {
+  background-color: #f5f5fa;
+  margin-top: 60px;
+}
+.wrapp-publications {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.publications-container .btn {
+  margin-top: 30px;
+  max-width: 211px;
+  grid-column-start: 2;
+}
+.card-publications {
+  background: #ffffff;
+  border-radius: 8px;
+}
+.card-publications .img-card {
+  border-radius: 12px 12px 0 0;
+  height: 200px;
+}
+.card-publications .title-card {
+  color: #24a3ff;
+}
+.card-publications .content-card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 30px;
+}
+.card-publications .title-card {
+  max-width: fit-content;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.card-publications:hover .title-card {
+  transition: 0.2s all linear;
+  color: #f0145a;
+}
+.news-group span {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #323264;
+  text-align: center;
+}
+.news-check {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.news-check + span {
+  border-radius: 10px;
+  padding: 10px 30px;
+}
+.form-news span:hover {
+  background-color: #f5f5fa;
+}
+.news-check:checked + span {
+  background-color: #ffffff;
+}
+.form-news {
+  width: 233px;
+  height: 42px;
+  background-color: #e6e6f0;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  gap: 2px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.publications-container .hr_down {
+  width: 100%;
+  margin-top: 60px;
+  height: 2px;
+  background: #e6e6f0;
+}
+.date-publication {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #b3b3ba;
+}
+.card-publications .p-small {
+  color: #000000;
 }
