@@ -263,6 +263,7 @@ input:invalid {
   text-align: center;
   color: #323264;
   text-align: center;
+  transition: 0.2s all linear;
 }
 .news-check {
   position: absolute;
