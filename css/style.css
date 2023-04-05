@@ -235,7 +235,7 @@ input:invalid {
   border-radius: 8px;
 }
 .card-publications .img-card {
-  border-radius: 12px 12px 0 0;
+  border-radius: 8px 8px 0 0;
   height: 200px;
 }
 .card-publications .title-card {
@@ -248,7 +248,6 @@ input:invalid {
   padding: 30px;
 }
 .card-publications .title-card {
-  max-width: fit-content;
   margin-top: 0;
   margin-bottom: 0;
 }
