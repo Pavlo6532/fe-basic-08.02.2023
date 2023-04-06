@@ -28,6 +28,9 @@
 .gap-20 {
   gap: 20px;
 }
+.gap-30 {
+  gap: 30px;
+}
 .fit-content {
   max-width: fit-content;
 }
@@ -308,4 +311,36 @@ input:invalid {
 }
 .card-publications .p-small {
   color: #000000;
+}
+/* --------------------------------team-entry--------------------------------------------------------- */
+.container_team_entry {
+  display: grid;
+  grid-template-areas:
+    "a b"
+    "a c";
+  column-gap: 60px;
+}
+.img_entry_team {
+  grid-area: a;
+  border-radius: 12px;
+  min-width: 400px;
+}
+.wrapp_title_line {
+  grid-area: b;
+}
+.box {
+  grid-area: c;
+}
+.email {
+  font-weight: 400;
+}
+.linkedIn {
+  color: #24a3ff;
+}
+.box hr {
+  margin-top: 30px;
+}
+.container_team_entry h3 {
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
