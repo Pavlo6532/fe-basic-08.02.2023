@@ -39,6 +39,24 @@ hr {
   height: 4px;
   background-color: #e6e6f0;
 }
+.mt-10 {
+  margin-top: 10px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
 /* -----------------------------------------FIRST-SECTION----------------------------------------------------------------- */
 .first-section {
   padding-top: 60px;
@@ -240,6 +258,8 @@ input:invalid {
 .card-publications .img-card {
   border-radius: 8px 8px 0 0;
   height: 200px;
+  width: 100%;
+  object-fit: cover;
 }
 .card-publications .title-card {
   color: #24a3ff;
@@ -316,14 +336,16 @@ input:invalid {
 .container_team_entry {
   display: grid;
   grid-template-areas:
-    "a b"
-    "a c";
+    "a a b"
+    "a a c";
   column-gap: 60px;
 }
 .img_entry_team {
   grid-area: a;
   border-radius: 12px;
-  min-width: 400px;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
 }
 .wrapp_title_line {
   grid-area: b;
@@ -337,10 +359,70 @@ input:invalid {
 .linkedIn {
   color: #24a3ff;
 }
+.linkedIn:hover {
+  color: #f0145a;
+  transition: all 0.2s linear;
+}
 .box hr {
   margin-top: 30px;
 }
 .container_team_entry h3 {
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+/* -------------------------publications-entry---------------------------------------------------- */
+.pb_entry_section {
+  padding-top: 65px;
+}
+.section_recomended {
+  background-color: #f5f5fa;
+  border-radius: 12px 12px 0px 0px;
+  padding-top: 30px;
+}
+.img_pb_entry {
+  display: block;
+  object-fit: cover;
+  height: 500px;
+  border-radius: 12px;
+  width: 100%;
+}
+.p_small_pb_entry {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.container_publications_entry h3 {
+  font-size: 22px;
+  line-height: 27px;
+  color: #46466e;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.pb_entry_ol span {
+  font-weight: 400;
+  color: #000000;
+}
+.wrapp_ad {
+  text-align: center;
+}
+.social_link_pb {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.social_link_span {
+  padding: 9px;
+  width: 42px;
+  height: 42px;
+  background-color: #f5f5fa;
+  border-radius: 12px;
+}
+.social_link_span:hover {
+  background-color: #ededf7;
+}
+.btn_more_small {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24a3ff;
 }

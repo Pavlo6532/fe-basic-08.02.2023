@@ -89,6 +89,8 @@ ul {
   line-height: 26px;
 }
 ol {
+  color: #f0145a;
+  font-weight: 700;
   font-size: 18px;
   line-height: 26px;
 }

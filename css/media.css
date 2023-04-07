@@ -15,11 +15,29 @@
   .container_team_entry {
     max-width: calc(var(--container-width) + var(--basic-space) * 2);
   }
+  .container_publications_entry {
+    max-width: calc(var(--container-width) + var(--basic-space) * 2);
+  }
   .wrapp-publications {
     grid-template-columns: repeat(2, 1fr);
   }
   .img_entry_team {
     min-width: 300px;
+  }
+  .pb_down {
+    display: grid;
+    grid-template-areas:
+      "a b"
+      "c c";
+  }
+  .pb1 {
+    grid-area: a;
+  }
+  .pb2 {
+    grid-area: b;
+  }
+  .pb3 {
+    grid-area: c;
   }
 }
 @media (max-width: 975px) {
@@ -94,8 +112,8 @@
   .container_team_entry {
     display: grid;
     grid-template-areas:
-      "a b"
-      "c c";
+      "a a b"
+      "c c c";
   }
   .wrapp_title_line .separator-grey {
     display: none;
@@ -244,5 +262,18 @@
   }
   .title_team_entry {
     margin-top: 30px;
+  }
+  .img_entry_team {
+    height: 375px;
+  }
+  .img_pb_entry {
+    height: 300px;
+  }
+  .pb_down {
+    display: grid;
+    grid-template-areas:
+      "a"
+      "b"
+      "c";
   }
 }
