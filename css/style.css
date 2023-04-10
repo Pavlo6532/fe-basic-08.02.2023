@@ -336,16 +336,19 @@ input:invalid {
 .container_team_entry {
   display: grid;
   grid-template-areas:
-    "a a b"
-    "a a c";
+    "a b"
+    "a c";
   column-gap: 60px;
 }
 .img_entry_team {
-  grid-area: a;
   border-radius: 12px;
-  width: 100%;
-  height: 500px;
   object-fit: cover;
+  width: 400px;
+  height: 500px;
+}
+.wrapp_img_team_entry {
+  width: 400px;
+  grid-area: a;
 }
 .wrapp_title_line {
   grid-area: b;
@@ -407,6 +410,9 @@ input:invalid {
 .wrapp_ad {
   text-align: center;
 }
+.wrapp_ad .p-small {
+  margin-top: 15px;
+}
 .social_link_pb {
   margin-top: 30px;
   margin-bottom: 60px;
@@ -425,4 +431,26 @@ input:invalid {
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #24a3ff;
+  margin-bottom: 10px;
+  max-width: fit-content;
+}
+.btn_publications_down {
+  display: block;
+  max-width: fit-content;
+}
+.container_publications_entry ol {
+  margin-left: 20px;
+}
+.title_small {
+  font-size: 30px;
+  line-height: 37px;
+  -webkit-text-fill-color: #323264;
+}
+.title_big {
+  font-size: 38px;
+  line-height: 46px;
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
