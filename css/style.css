@@ -454,3 +454,124 @@ input:invalid {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+/* ---------------------------------about_us---------------------------------------------------------- */
+.first_section_about {
+  padding-top: 65px;
+  padding-bottom: 60px;
+}
+.container_about {
+  display: grid;
+  grid-template-areas: "a a b";
+}
+.box-1 {
+  grid-area: a;
+  padding-right: 30px;
+}
+.box-1 .title {
+  margin-bottom: 28px;
+}
+.box-2 {
+  grid-area: b;
+  border-left: 4px solid;
+  border-color: #e6e6f0;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.box-2 .title_h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+.wrapp_about_up .p-small {
+  font-size: 16px;
+  line-height: 20px;
+  color: #323264;
+}
+.wrapp_about_up .wrapp {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.descriotion_about {
+  font-size: 19px;
+  line-height: 30px;
+}
+.section_team_about_page {
+  position: relative;
+}
+.section_team_about_page img {
+  display: block;
+}
+.team_title {
+  position: absolute;
+  left: calc(50% - 478px / 2);
+  top: calc(50% - 117px / 2 + 2.5px);
+  font-size: 96px;
+  line-height: 117px;
+  text-align: center;
+  letter-spacing: 63px;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 0.8;
+  text-shadow: 0px 15px 30px rgba(40, 40, 86, 0.8);
+}
+.box-description {
+  grid-area: a;
+}
+.box-title {
+  grid-area: b;
+}
+.section_quality .container_about {
+  column-gap: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.section_slide {
+  background-color: #f5f5fa;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.section_slide h3 {
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.slider_about {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.card_slide_about {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(50%);
+  z-index: 2;
+}
+.slick-prev {
+  left: 0;
+}
+.slick-next {
+  right: 0;
+}
+.slick-dots li button:before {
+  content: "";
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  background: #24a3ff;
+  opacity: 0.2;
+}
