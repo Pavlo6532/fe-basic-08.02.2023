@@ -502,6 +502,7 @@ input:invalid {
 }
 .section_team_about_page img {
   display: block;
+  width: 100%;
 }
 .team_title {
   position: absolute;
@@ -530,20 +531,14 @@ input:invalid {
 .section_slide {
   background-color: #f5f5fa;
   padding-top: 30px;
-  padding-bottom: 30px;
 }
 .section_slide h3 {
   text-align: center;
   letter-spacing: 1px;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
-/* .slider_about {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  gap: 40px;
-} */
-/* .card_slide_about {
+.card_slide_about {
   background-color: #ffffff;
   border-radius: 12px;
   padding-top: 25px;
@@ -551,26 +546,7 @@ input:invalid {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.slick-arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(50%);
-  z-index: 2;
-}
-.slick-prev {
-  left: 0;
-}
-.slick-next {
-  right: 0;
-}
-.slick-dots li button:before {
-  content: "";
-  border-radius: 50%;
-  width: 16px;
-  height: 16px;
-  background: #24a3ff;
-  opacity: 0.2;
-} */
+
 .slide-item {
   height: 110px;
   background: #ffffff;
@@ -586,5 +562,23 @@ input:invalid {
 }
 .slick-slider,
 .owl-carousel {
-  max-width: calc(100vw - 2rem);
+  max-width: calc(100vw - var(--basic-space) * 2 - 20px);
+}
+.owl-theme .owl-dots .owl-dot span {
+  width: 16px;
+  height: 16px;
+  background-color: #24a3ff;
+  opacity: 0.2;
+}
+.owl-theme .owl-dots .owl-dot.active span {
+  background-color: #24a3ff;
+  opacity: 1;
+}
+.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #24a3ff;
+  opacity: 0.6;
+}
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
