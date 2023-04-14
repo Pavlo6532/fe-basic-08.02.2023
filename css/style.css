@@ -115,8 +115,11 @@ hr {
   color: #24a3ff;
   max-width: 105px;
 }
-.description_facebook:hover {
+.facebook_contact:hover p,
+a:hover svg path {
   color: #f0145a;
+  fill: #f0145a;
+  border-radius: 8px;
   transition: all 0.2s linear;
 }
 .title-message {
@@ -478,6 +481,7 @@ input:invalid {
   display: flex;
   flex-direction: column;
   gap: 40px;
+  height: fit-content;
 }
 .box-2 .title_h1 {
   font-size: 36px;
@@ -574,7 +578,7 @@ input:invalid {
   background-color: #24a3ff;
   opacity: 1;
 }
-.owl-theme .owl-dots .owl-dot:hover span {
+.owl-theme .owl-dots .owl-dot:not(.active):hover span {
   background-color: #24a3ff;
   opacity: 0.6;
 }

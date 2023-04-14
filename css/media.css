@@ -88,6 +88,12 @@
   .nav-mobile {
     justify-content: start;
   }
+  .slide-item {
+    height: 90px;
+  }
+  .owl-carousel .owl-item img {
+    height: 40px;
+  }
 }
 @media (max-width: 950px) {
   :root {
@@ -131,6 +137,9 @@
     grid-template-columns: 1fr;
     gap: 60px;
   }
+  .slide-item {
+    padding: 25px 10px;
+  }
 }
 @media (max-width: 860px) {
   .wrapp_img_team_entry {
@@ -158,6 +167,9 @@
     line-height: 56px;
     left: calc(50% - 328px / 2);
     top: calc(50% - 56px / 2 + 0.2px);
+  }
+  .owl-carousel .owl-item img {
+    height: 40px;
   }
 }
 @media (max-width: 655px) {
