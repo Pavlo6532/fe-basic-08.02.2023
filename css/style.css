@@ -116,7 +116,8 @@
 }
 /* ------------------------------------first-section-------------------------------------------------------------------- */
 .first-section .wrapp {
-  padding: 345px 0;
+  padding-top: 100px;
+  padding-bottom: 150px;
   background-image: url(../images/first-section.jpg);
   background-position: right top;
   background-size: 70%, contain;
@@ -141,14 +142,13 @@
   max-width: 510px;
 }
 .fs-content {
-  position: absolute;
-  top: 150px;
-  left: 55px;
+  margin-left: 50px;
 }
 
 /* -----------------------------------section-nature---------------------------------------------------- */
 .natural-section {
   padding-top: 240px;
+  padding-bottom: 85px;
 }
 .natural-section .title-section {
   max-width: 525px;
@@ -194,7 +194,7 @@
 }
 /* -------------------------------------------image-section--------------------------------------------------------- */
 .image-section {
-  padding-top: 240px;
+  padding-top: 160px;
   padding-bottom: 90px;
 }
 /* -------------------------------------------product-section---------------------------------------------------------- */
@@ -256,10 +256,7 @@
   margin-bottom: 40px;
 }
 .card-feature .wrapp {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  text-align: center;
 }
 .btn-feature {
   max-width: 115px;
@@ -297,13 +294,29 @@
   border: 1px solid #ffffff;
 }
 .card-wash {
-  position: relative;
-  max-height: 415px;
+  flex: 1;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.title-wash {
-  position: absolute;
-  top: 171px;
-  right: 171px;
+.body {
+  background-image: url(../images/wash.jpg);
+  background-position: center;
+  background-size: 100%, contain;
+  background-repeat: no-repeat;
+}
+.face {
+  background-image: url(../images/wash1.jpg);
+  background-position: center;
+  background-size: 100%, contain;
+  background-repeat: no-repeat;
+}
+.cleanser {
+  background-image: url(../images/wash2.jpg);
+  background-position: center;
+  background-size: 100%, contain;
+  background-repeat: no-repeat;
 }
 /* ------------------------------------section-blog------------------------------------------------------------- */
 .section-blog {
@@ -361,7 +374,7 @@
   line-height: 39px;
   color: #000000;
 }
-.wrapp .description {
+.footer .wrapp .description {
   display: flex;
   flex-direction: column;
   gap: 10px;
