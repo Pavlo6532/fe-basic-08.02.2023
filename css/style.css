@@ -116,7 +116,7 @@ hr {
   max-width: 105px;
 }
 .facebook_contact:hover p,
-a:hover svg path {
+.contact a:hover svg path {
   color: #f0145a;
   fill: #f0145a;
   border-radius: 8px;
