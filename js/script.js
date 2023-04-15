@@ -11,9 +11,11 @@ $(document).ready(function(){
       nav: false,
       margin: 40,
       items: 4,
+      autoplay: true,
       responsive:{
         0:{
-            items:1
+            items:1,
+            dotsEach: 2,
         },
         600:{
             items:4

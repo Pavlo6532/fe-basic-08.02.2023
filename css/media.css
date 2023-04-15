@@ -333,4 +333,8 @@
     font-size: 30px;
     line-height: 37px;
   }
+  .slick-slider,
+  .owl-carousel {
+    max-width: calc(100vw - var(--basic-space) * 2);
+  }
 }
