@@ -586,3 +586,34 @@ input:invalid {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+/* -----------------------MODAL-------------------------------------------------------------- */
+.modal-wrapper {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  inset: 0;
+  background-color: rgba(50, 50, 100, 0.7);
+  padding: 1rem;
+}
+.modal-wrapper.active {
+  display: flex;
+}
+.modal-window {
+  background-color: #f5f5fa;
+  box-shadow: 0px 15px 80px rgba(40, 40, 86, 0.5);
+  width: 100%;
+  max-width: 650px;
+  position: relative;
+  padding: 30px;
+  border-radius: 12px;
+}
+.modal-window .title_h1 {
+  padding-bottom: 30px;
+}
+.modal-window .close {
+  float: right;
+  cursor: pointer;
+  color: #ec6f5d;
+  font-size: 3rem;
+}

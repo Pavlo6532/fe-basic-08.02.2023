@@ -176,6 +176,14 @@
   :root {
     --basic-space: 30px;
   }
+  .modal-window {
+    width: 100%;
+    max-width: 375px;
+  }
+  .modal-window .title_h1 {
+    font-size: 30px;
+    line-height: 37px;
+  }
 }
 @media (max-width: 595px) {
   .team-logo {

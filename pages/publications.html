@@ -161,12 +161,32 @@
                         </a>
                     </div>
                 </div>
-                <button class="btn">More publications</button>
+                <button class="btn modal">More publications</button>
                 <hr class="hr_down">
             </div>
         </section>
     </main>
     <footer class="footer">
+        <!-----------------------------modal--------------------------------------------------->
+        <div class="modal-wrapper">
+            <div class="modal-window">
+                <span class="close">&times;</span>
+                <h3 class="title_h1 py-rem">We would like to help you</h3>
+                <form class="form_message" action="https://fom.in.ua/echo" method="post">
+                    <div class="wrap_form">
+                        <input class="input" type="text" name="name" required placeholder="Name">
+                        <textarea class="input" name="massege" placeholder="Message"></textarea>
+                    </div>
+                    <div class="wrap_form">
+                        <h3>How to answer you?</h3>
+                        <input class="input" name="phone" type="tel" required placeholder="Phone number">
+                        <input class="input" name="email" type="email" required placeholder="Email">
+                    </div>
+                    <button class="btn">Send message</button>
+                </form>
+            </div>
+        </div>
+        <!------------------------------modal-------------------------------------------------->
         <div class="container">
             <div class="wrapp flex flex-column gap-20">
                 <div class="up-line flex items-center gap-10">

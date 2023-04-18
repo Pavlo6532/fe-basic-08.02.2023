@@ -29,14 +29,37 @@
                     Ab, iure ipsa aliquam porro totam molestias.
                 </p>
                 <img src="./images/nature.png" alt="nature" width="300">
+                <div class="py-rem">
+                    <button class="modal">Open modal</button>
+                </div>
             </div>
         </section>
     </main>
     <footer class="footer py-rem">
+        <div class="modal-wrapper">
+            <div class="modal-window">
+                <span class="close">&times;</span>
+                <h3 class="title_h1 py-rem">We would like to help you</h3>
+                <form class="form_message" action="https://fom.in.ua/echo" method="post">
+                    <div class="wrap_form">
+                        <input class="input" type="text" name="name" required placeholder="Name">
+                        <textarea class="input" name="massege" placeholder="Message"></textarea>
+                    </div>
+                    <div class="wrap_form">
+                        <h3>How to answer you?</h3>
+                        <input class="input" name="phone" type="tel" required placeholder="Phone number">
+                        <input class="input" name="email" type="email" required placeholder="Email">
+                    </div>
+                    <button class="btn">Send message</button>
+                </form>
+            </div>
+        </div>
         <div class="container">
             <p>&copy; All rights are reserved</p>
         </div>
     </footer>
+    <script src="./js/jquery-3.6.4.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
