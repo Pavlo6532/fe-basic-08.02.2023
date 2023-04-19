@@ -411,7 +411,9 @@ input:invalid {
   color: #000000;
 }
 .wrapp_ad {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .wrapp_ad .p-small {
   margin-top: 15px;
@@ -616,4 +618,10 @@ input:invalid {
   cursor: pointer;
   color: #ec6f5d;
   font-size: 3rem;
+  border-radius: 8px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.close:hover {
+  background-color: #e6e6f0;
 }
