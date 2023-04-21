@@ -6,34 +6,35 @@ $(".burger").click(function () {
 });
 
 $(document).ready(function () {
-  $("#owl").owlCarousel({
-    loop: true,
-    nav: false,
-    margin: 40,
-    items: 4,
-    autoplay: true,
-    responsive: {
-      0: {
-        items: 1,
-        dotsEach: 2,
+  const owlCarousel = document.getElementById("owl");
+  if (owlCarousel) {
+    $("#owl").owlCarousel({
+      loop: true,
+      nav: false,
+      margin: 40,
+      items: 4,
+      autoplay: true,
+      responsive: {
+        0: {
+          items: 1,
+          dotsEach: 2,
+        },
+        595: {
+          items: 4,
+        },
       },
-      600: {
-        items: 4,
-      },
-      1000: {
-        items: 4,
-      },
-    },
-  });
-});
-$(".modal").click(function () {
-  $(".modal-wrapper").addClass("active");
-});
-$(".modal-window .close, .modal-wrapper").click(function (event) {
-  console.log(this);
-  console.log(event.target);
-  if (this === event.target) {
-    console.log("Our target");
-    $(".modal-wrapper").removeClass("active");
+    });
   }
+
+  $(".modal").click(function () {
+    $(".modal-wrapper").addClass("active");
+  });
+  $(".modal-window .close, .modal-wrapper").click(function (event) {
+    console.log(this);
+    console.log(event.target);
+    if (this === event.target) {
+      console.log("Our target");
+      $(".modal-wrapper").removeClass("active");
+    }
+  });
 });
