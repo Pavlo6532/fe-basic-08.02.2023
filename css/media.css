@@ -186,6 +186,12 @@
   }
 }
 @media (max-width: 595px) {
+  .img_logo {
+    max-width: 70px;
+  }
+  .slash {
+    max-width: 12px;
+  }
   .team-logo {
     font-size: 20px;
     line-height: 24px;

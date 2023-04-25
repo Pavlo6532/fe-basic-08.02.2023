@@ -43,6 +43,14 @@
   border-radius: 50%;
   display: inline-block;
 }
+.img_logo {
+  max-width: 130px;
+}
+.slash {
+  margin-left: 5px;
+  margin-right: 5px;
+  max-width: 21px;
+}
 .team-logo {
   font-size: 36px;
   line-height: 44px;

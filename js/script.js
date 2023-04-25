@@ -37,4 +37,26 @@ $(document).ready(function () {
       $(".modal-wrapper").removeClass("active");
     }
   });
+  function scrollToElem(elem) {
+    event.preventDefault();
+    const target = document.querySelector(elem.hash);
+    window.scrollTo({
+      top: target.offsetTop,
+      behavior: "smooth",
+    });
+  }
+
+  if (owlCarousel) {
+    $("#owl-services").owlCarousel({
+      loop: true,
+      nav: false,
+      items: 1,
+      autoplay: true,
+      responsive: {
+        0: {
+          items: 1,
+        },
+      },
+    });
+  }
 });
