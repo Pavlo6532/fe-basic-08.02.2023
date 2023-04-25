@@ -52,11 +52,6 @@ $(document).ready(function () {
       nav: false,
       items: 1,
       autoplay: true,
-      responsive: {
-        0: {
-          items: 1,
-        },
-      },
     });
   }
 });

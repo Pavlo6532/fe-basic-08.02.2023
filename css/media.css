@@ -1,3 +1,9 @@
+@media (min-width: 1720px) {
+  .logo-wrap {
+    overflow: hidden;
+    border-radius: 12px;
+  }
+}
 @media (max-width: 1440px) {
   :root {
     --container-width: 1360px;
@@ -62,6 +68,46 @@
     line-height: 105px;
     left: calc(50% - 448px / 2);
     top: calc(50% - 105px / 2 - 0.23px);
+  }
+  .wrapper-services-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .logo-wrap {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .first-section-home {
+    min-height: initial;
+    background-size: cover;
+    aspect-ratio: 1/1.33;
+  }
+  .navTab-wrapper {
+    display: block;
+  }
+  .nav-buttons {
+    max-width: calc(100vw - var(--basic-space) * 2 - var(--scrollbar-width));
+    overflow-x: auto;
+    flex-direction: row;
+    gap: 30px;
+    border-right: none;
+    margin-right: 0;
+    padding-right: 0;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+  }
+  .nav-buttons::-webkit-scrollbar {
+    width: 0;
+  }
+  .nav-buttons::-webkit-scrollbar-track {
+    background: 0 0;
+  }
+  .nav-buttons::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .tab-content {
+    border-top: 4px solid rgba(255, 255, 255, 0.3);
+    margin-top: 60px;
+    padding-top: 60px;
   }
 }
 @media (max-width: 975px) {
@@ -211,6 +257,9 @@
     padding-left: calc(var(--basic-space) / 2);
     padding-right: calc(var(--basic-space) / 2);
   }
+  .header-dark .nav-up {
+    background-color: rgba(245, 245, 250, 0.2);
+  }
   .header .container {
     padding-left: var(--basic-space);
     padding-right: var(--basic-space);
@@ -350,5 +399,38 @@
   .slick-slider,
   .owl-carousel {
     max-width: calc(100vw - var(--basic-space) * 2);
+  }
+  .logo-wrap {
+    grid-template-columns: 100%;
+    max-height: calc(var(--logo-height) * 6);
+    overflow-y: auto;
+  }
+  .first-section-home {
+    aspect-ratio: 1/1.6;
+  }
+  .nav-link-home {
+    font-size: 30px;
+    line-height: 37px;
+  }
+  .tab-content {
+    margin-top: 30px;
+    padding-top: 30px;
+  }
+  .tab-content h2 {
+    font-size: 30px;
+    line-height: 37px;
+  }
+  .tabs-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .services-section .title_h1 {
+    font-size: 30px;
+    line-height: 37px;
+    margin-bottom: 30px;
+  }
+  .wrapper-services-card {
+    grid-template-columns: 100%;
+    gap: 30px;
   }
 }

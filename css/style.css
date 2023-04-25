@@ -643,7 +643,7 @@ body.gradient .header {
   color: #ffffff;
   border-radius: 0px 0px 12px 12px;
   position: relative;
-  z-index: 1;
+  margin-bottom: 20px;
 }
 .bg-gradient::before,
 .bg-gradient::after {
@@ -702,19 +702,14 @@ body.gradient .header {
   border: 2px solid #f0145a;
   transition: 0.2s all linear;
 }
-.d-flex {
-  display: grid !important;
-  grid-template-areas: "a b b";
+.navTab-wrapper {
+  display: grid;
+  grid-template-areas: "a b";
 }
 .nav-pills {
   grid-area: a;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  margin-right: 0 !important;
-  padding-right: 60px;
 }
-.nav-link {
+.nav-link-home {
   font-weight: 700;
   font-size: 38px;
   line-height: 46px;
@@ -723,14 +718,15 @@ body.gradient .header {
   border: none;
   background-color: inherit;
   cursor: pointer;
+  white-space: nowrap;
 }
-.nav-link.active {
+.nav-link-home.active {
   background: linear-gradient(90.13deg, #ef8080 0.84%, #f0145a 99.96%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
-.nav-link:not(.active):hover {
+.nav-link-home:not(.active):hover {
   color: #f0145a;
   transition: 0.3s all linear;
 }
@@ -739,19 +735,26 @@ body.gradient .header {
   grid-area: b;
 }
 .tab-pane.active {
-  padding-left: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 30px;
   height: 100%;
-  border-left: 4px solid rgba(255, 255, 255, 0.3);
 }
 .tab-content {
   height: 100%;
 }
 .tab-content h2 {
   color: #ffffff;
+}
+.nav-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 30px;
+  border-right: 4px solid rgba(255, 255, 255, 0.3);
+  margin-right: 60px;
+  padding-right: 60px;
 }
 .tab-content p {
   font-size: 19px;
@@ -778,6 +781,9 @@ body.gradient .header {
   text-align: center;
   margin-bottom: 30px;
 }
+.services-section {
+  padding-bottom: 60px;
+}
 .card-services h3 {
   font-size: 22px;
   line-height: 27px;
@@ -797,4 +803,100 @@ body.gradient .header {
   fill: #f0145a;
   color: #f0145a;
   transition: all 0.2s linear;
+}
+.section_slide_services {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.wrapp-slide-services {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  max-height: 298px;
+  background-color: #f5f5fa;
+  border-radius: 12px;
+}
+.img-slide-home {
+  height: 298px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px 0px 0px 12px;
+}
+.wrapp-slide-services .btn_more_small {
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+.wrapp-slide-services .title_h1 {
+  margin-bottom: 30px;
+}
+.wrapp-slide-services .p-small {
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+/* --------------------------------SECTION-LOGOS---------------------------------------------------- */
+.section-logos h3 {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #323264;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.logo-wrap {
+  max-width: 1720px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo-item {
+  padding: 10px 20px;
+  height: var(--logo-height);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-item img {
+  max-height: 100%;
+}
+.logo-item.bg-1 {
+  background-color: #1c4280;
+}
+.logo-item.bg-2 {
+  background-color: #143646;
+}
+.logo-item.bg-3 {
+  background: linear-gradient(0deg, #f48b30, #f48b30), #f48b30;
+}
+.logo-item.bg-4 {
+  background-color: #9e4dc3;
+}
+.logo-item.bg-5 {
+  background-color: #fd9339;
+}
+.logo-item.bg-6 {
+  background-color: #e2e2e4;
+}
+.logo-item.bg-7 {
+  background-color: #c71c36;
+}
+.logo-item.bg-8 {
+  background-color: #dcf3f9;
+}
+.logo-item.bg-9 {
+  background-color: #eaeaea;
+}
+.logo-item.bg-10 {
+  background-color: #282240;
+}
+.logo-item.bg-11 {
+  background-color: #1d4568;
+}
+.logo-item.bg-12 {
+  background-color: #000000;
+}
+/* ---------------------------------SECTION-PUBLOCATION-HOME---------------------------------------------- */
+.section-pb-entry {
+  padding-top: 30px;
+  background-color: #f5f5fa;
 }
