@@ -1,11 +1,11 @@
-console.log("Work!");
-
 $(".burger").click(function () {
   $(this).toggleClass("active");
   $("nav").slideToggle();
 });
 
 $(document).ready(function () {
+  console.log("Work!");
+
   const owlCarousel = document.getElementById("owl");
   if (owlCarousel) {
     $("#owl").owlCarousel({
@@ -25,6 +25,12 @@ $(document).ready(function () {
       },
     });
   }
+  $("#owl-home").owlCarousel({
+    loop: true,
+    nav: false,
+    margin: 40,
+    items: 1,
+  });
 
   $(".modal").click(function () {
     $(".modal-wrapper").addClass("active");
@@ -43,15 +49,6 @@ $(document).ready(function () {
     window.scrollTo({
       top: target.offsetTop,
       behavior: "smooth",
-    });
-  }
-
-  if (owlCarousel) {
-    $("#owl-services").owlCarousel({
-      loop: true,
-      nav: false,
-      items: 1,
-      autoplay: true,
     });
   }
 });

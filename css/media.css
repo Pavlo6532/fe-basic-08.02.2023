@@ -27,6 +27,9 @@
     flex-direction: column;
     align-items: start;
   }
+  .container-tabs {
+    max-width: calc(var(--container-width) + var(--basic-space) * 2);
+  }
 }
 @media (max-width: 992px) {
   :root {
@@ -109,6 +112,9 @@
     margin-top: 60px;
     padding-top: 60px;
   }
+  .wrapp-slide-services {
+    grid-template-columns: 100%;
+  }
 }
 @media (max-width: 975px) {
   .header .publications-container {
@@ -139,6 +145,9 @@
   }
   .owl-carousel .owl-item img {
     height: 40px;
+  }
+  .section_slide_services .owl-carousel .owl-item img {
+    height: 100%;
   }
 }
 @media (max-width: 950px) {
@@ -432,5 +441,14 @@
   .wrapper-services-card {
     grid-template-columns: 100%;
     gap: 30px;
+  }
+  .header-dark .nav-mobile a.active {
+    color: #f0145a;
+  }
+  .header-dark .nav-mobile .nav-link {
+    color: #24a3ff;
+  }
+  .header-dark .nav-mobile .nav-link:active {
+    color: #f0145a;
   }
 }

@@ -163,8 +163,14 @@
   background-color: #f0145a;
   color: #ffffff;
 }
+.header-dark .nav-mobile .nav-link {
+  color: #ffffff;
+}
 .header-dark .nav-mobile .nav-link::after {
   background-color: #ffffff;
+}
+.header-dark .nav-mobile .nav-link:active {
+  color: #ffffff;
 }
 .header-dark .nav-mobile .nav-link:active::after {
   background-color: #ffffff;
