@@ -57,6 +57,9 @@ hr {
 .mb-30 {
   margin-bottom: 30px;
 }
+.pt-60 {
+  padding-top: 60px;
+}
 /* -----------------------------------------TEAM-PAGE----------------------------------------------------------------- */
 .first-section {
   padding-top: 60px;
@@ -806,7 +809,6 @@ body.gradient .header {
 /* ---------------------SLIDE-HOME---------------------------------------------------- */
 .section_slide_services {
   padding-top: 60px;
-  padding-bottom: 60px;
 }
 .wrapp-slide-services {
   display: grid;
@@ -814,16 +816,17 @@ body.gradient .header {
   background-color: #f5f5fa;
   border-radius: 12px;
 }
-.section_slide_services .slick-slide img,
-.owl-carousel .owl-item img {
-  max-width: 400px;
-  height: 100%;
-}
-.img-slide-home {
-  height: 298px;
-  width: 100%;
-  object-fit: cover;
+.br-slide {
   border-radius: 12px 0px 0px 12px;
+}
+.bg-img1 {
+  background: url(../images/Team-1.jpg) no-repeat center/cover;
+}
+.bg-img2 {
+  background: url(../images/Team-2.jpg) no-repeat center/cover;
+}
+.bg-img3 {
+  background: url(../images/Team-3.jpg) no-repeat center/cover;
 }
 .wrapp-slide-services .btn_more_small {
   margin-bottom: 5px;
@@ -902,4 +905,9 @@ body.gradient .header {
 .section-pb-entry {
   padding-top: 30px;
   background-color: #f5f5fa;
+}
+/* ---------------------------------SERVICES-PAGE-------------------------------------------- */
+.services-logos {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }

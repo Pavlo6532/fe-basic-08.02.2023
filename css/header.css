@@ -189,6 +189,12 @@
 .header-dark .facebook-header:hover svg path {
   fill: #f0145a;
 }
+.header-dark .team-logo {
+  color: #ffffff;
+}
+.services-body .bg-gradient {
+  padding-top: 175px;
+}
 /* ---------------------------------mobile----------------------------------------------------- */
 .hide_check,
 .burger {
