@@ -195,6 +195,9 @@
 .services-body .bg-gradient {
   padding-top: 175px;
 }
+.header-dark .nav-mobile a.active {
+  color: #f0145a;
+}
 /* ---------------------------------mobile----------------------------------------------------- */
 .hide_check,
 .burger {

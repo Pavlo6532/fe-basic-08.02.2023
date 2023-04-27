@@ -599,6 +599,7 @@ input:invalid {
   inset: 0;
   background-color: rgba(50, 50, 100, 0.7);
   padding: 1rem;
+  z-index: 2;
 }
 .modal-wrapper.active {
   display: flex;
@@ -910,4 +911,54 @@ body.gradient .header {
 .services-logos {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+/* ---------------------------------SERVICES-PAGE-ENTRY-------------------------------------------- */
+.wrapper-services-entry {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.wrapper-services-entry .icon-card {
+  margin-bottom: 0;
+}
+.wrapper-services-entry .title_h1 {
+  margin-bottom: 0;
+}
+.description-services-entry {
+  font-size: 19px;
+  line-height: 30px;
+  text-align: center;
+}
+.wrapper-services-entry .btn {
+  padding-right: 30px;
+  padding-left: 30px;
+  max-width: fit-content;
+}
+.wrapper-services-entry hr {
+  width: 100%;
+}
+.section-services-area h3 {
+  font-size: 22px;
+  line-height: 27px;
+  color: #ffffff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.wrapp-list {
+  display: flex;
+  gap: 60px;
+}
+.wrapp-list-entry {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-left: 18px;
+}
+.section-services-area {
+  padding-bottom: 60px;
+}
+ul li::marker {
+  color: #f0145a;
 }

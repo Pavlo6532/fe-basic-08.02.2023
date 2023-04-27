@@ -6,6 +6,18 @@ $(".burger").click(function () {
 $(document).ready(function () {
   console.log("Work!");
 
+  $(".modal").click(function () {
+    $(".modal-wrapper").addClass("active");
+  });
+  $(".modal-window .close, .modal-wrapper").click(function (event) {
+    console.log(this);
+    console.log(event.target);
+    if (this === event.target) {
+      console.log("Our target");
+      $(".modal-wrapper").removeClass("active");
+    }
+  });
+
   const owlCarousel = document.getElementById("owl");
   if (owlCarousel) {
     $("#owl").owlCarousel({
@@ -32,17 +44,6 @@ $(document).ready(function () {
     items: 1,
   });
 
-  $(".modal").click(function () {
-    $(".modal-wrapper").addClass("active");
-  });
-  $(".modal-window .close, .modal-wrapper").click(function (event) {
-    console.log(this);
-    console.log(event.target);
-    if (this === event.target) {
-      console.log("Our target");
-      $(".modal-wrapper").removeClass("active");
-    }
-  });
   function scrollToElem(elem) {
     event.preventDefault();
     const target = document.querySelector(elem.hash);

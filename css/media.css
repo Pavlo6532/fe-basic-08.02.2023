@@ -33,6 +33,9 @@
   .services-logos {
     padding-bottom: 0;
   }
+  .container-services-entry {
+    max-width: calc(var(--container-width) + var(--basic-space) * 2);
+  }
 }
 @media (max-width: 992px) {
   :root {
@@ -469,5 +472,13 @@
   }
   .services-body .bg-gradient {
     padding-top: 132px;
+  }
+  .header-dark .nav-mobile .nav-link:hover {
+    color: #f0145a;
+    transition: all 0.3s linear;
+  }
+  .wrapp-list {
+    flex-direction: column;
+    gap: 30px;
   }
 }
