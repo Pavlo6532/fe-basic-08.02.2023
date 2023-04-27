@@ -481,4 +481,8 @@
     flex-direction: column;
     gap: 30px;
   }
+  .wrapper-services-entry .title_h1 {
+    font-size: 30px;
+    line-height: 37px;
+  }
 }
