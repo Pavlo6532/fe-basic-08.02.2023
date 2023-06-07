@@ -7,16 +7,26 @@ $(document).ready(function () {
   console.log("Work!");
 
   $(".modal").click(function () {
+    $("body").addClass("modal-open");
     $(".modal-wrapper").addClass("active");
+    disableScroll();
   });
+
   $(".modal-window .close, .modal-wrapper").click(function (event) {
-    console.log(this);
-    console.log(event.target);
     if (this === event.target) {
-      console.log("Our target");
+      $("body").removeClass("modal-open");
       $(".modal-wrapper").removeClass("active");
+      enableScroll();
     }
   });
+
+  function disableScroll() {
+    $("body").css("overflow", "hidden");
+  }
+
+  function enableScroll() {
+    $("body").css("overflow", "auto");
+  }
 
   const owlCarousel = document.getElementById("owl");
   if (owlCarousel) {
